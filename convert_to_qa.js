@@ -202,24 +202,24 @@ function generateQuestionsForDataset(data, datasetId, datasetTitle) {
                     question: `${latestPeriod} davrida iste'mol narxlari indeksining asosiy tarkibiy qismlari orasida eng yuqori o'sish qaysi yo'nalishda bo'lgan?`,
                     answer: `${latestPeriod} davrida eng yuqori o'sish ${components[0].name.toLowerCase()}da (${components[0].value.toFixed(1)}%) qayd etilgan. Keyingi o'rinlarda ${components[1].name.toLowerCase()} (${components[1].value.toFixed(1)}%) va ${components[2].name.toLowerCase()} (${components[2].value.toFixed(1)}%) turadi.`
                 });
-            }
 
-            // Mavsumiy o'zgarishlar tahlili
-            if (periods.length >= 12) {
-                const monthlyData = periods.slice(-12).map(period => ({
-                    period,
-                    value: parseFloat(totalData[period])
-                })).filter(item => !isNaN(item.value));
+                // Mavsumiy o'zgarishlar tahlili
+                if (periods.length >= 12) {
+                    const monthlyData = periods.slice(-12).map(period => ({
+                        period,
+                        value: parseFloat(totalData[period])
+                    })).filter(item => !isNaN(item.value));
 
-                if (monthlyData.length === 12) {
-                    const maxMonth = monthlyData.reduce((max, curr) => curr.value > max.value ? curr : max);
-                    const minMonth = monthlyData.reduce((min, curr) => curr.value < min.value ? curr : min);
+                    if (monthlyData.length === 12) {
+                        const maxMonth = monthlyData.reduce((max, curr) => curr.value > max.value ? curr : max);
+                        const minMonth = monthlyData.reduce((min, curr) => curr.value < min.value ? curr : min);
 
-                    qaData.push({
-                        dataset_id: datasetId,
-                        question: `So'nggi 12 oyda iste'mol narxlari indeksining mavsumiy o'zgarishlari qanday bo'lgan?`,
-                        answer: `So'nggi 12 oyda eng yuqori o'sish ${maxMonth.period} davrida (${maxMonth.value.toFixed(1)}%), eng past o'sish esa ${minMonth.period} davrida (${minMonth.value.toFixed(1)}%) kuzatilgan.`
-                    });
+                        qaData.push({
+                            dataset_id: datasetId,
+                            question: `So'nggi 12 oyda iste'mol narxlari indeksining mavsumiy o'zgarishlari qanday bo'lgan?`,
+                            answer: `So'nggi 12 oyda eng yuqori o'sish ${maxMonth.period} davrida (${maxMonth.value.toFixed(1)}%), eng past o'sish esa ${minMonth.period} davrida (${minMonth.value.toFixed(1)}%) kuzatilgan.`
+                        });
+                    }
                 }
             }
         }
@@ -246,22 +246,22 @@ function generateQuestionsForDataset(data, datasetId, datasetTitle) {
                         `qayta ishlash sanoatida (${sectors[0].value.toFixed(1)}%) energetika tarmog'iga (${sectors[1].value.toFixed(1)}%) nisbatan` : 
                         `energetika tarmog'ida (${sectors[1].value.toFixed(1)}%) qayta ishlash sanoatiga (${sectors[0].value.toFixed(1)}%) nisbatan`} yuqoriroq narx o'sishi kuzatilgan.`
                 });
-            }
 
-            // Uzoq muddatli tendensiya
-            if (periods.length > 1) {
-                const values = periods.map(period => parseFloat(totalData[period])).filter(val => !isNaN(val));
-                const avgGrowth = values.slice(1).reduce((sum, curr, idx) => 
-                    sum + ((curr - values[idx]) / values[idx] * 100), 0) / (values.length - 1);
+                // Uzoq muddatli tendensiya
+                if (periods.length > 1) {
+                    const values = periods.map(period => parseFloat(totalData[period])).filter(val => !isNaN(val));
+                    const avgGrowth = values.slice(1).reduce((sum, curr, idx) => 
+                        sum + ((curr - values[idx]) / values[idx] * 100), 0) / (values.length - 1);
 
-                qaData.push({
-                    dataset_id: datasetId,
-                    question: `Sanoat mahsulotlari narx indeksining uzoq muddatli tendensiyasi qanday?`,
-                    answer: `${periods[0]}-${periods[periods.length-1]} davrida sanoat mahsulotlari narxining o'rtacha oylik o'sishi ${avgGrowth.toFixed(1)}% ni tashkil etgan. ${
-                        avgGrowth > 1 ? "Bu sezilarli inflyatsion bosim mavjudligini ko'rsatadi." : 
-                        avgGrowth > 0 ? "Bu mo''tadil narx o'sishi mavjudligini ko'rsatadi." : 
-                        "Bu narxlar barqaror yoki pasayish tendensiyasiga ega ekanligini ko'rsatadi."}`
-                });
+                    qaData.push({
+                        dataset_id: datasetId,
+                        question: `Sanoat mahsulotlari narx indeksining uzoq muddatli tendensiyasi qanday?`,
+                        answer: `${periods[0]}-${periods[periods.length-1]} davrida sanoat mahsulotlari narxining o'rtacha oylik o'sishi ${avgGrowth.toFixed(1)}% ni tashkil etgan. ${
+                            avgGrowth > 1 ? "Bu sezilarli inflyatsion bosim mavjudligini ko'rsatadi." : 
+                            avgGrowth > 0 ? "Bu mo''tadil narx o'sishi mavjudligini ko'rsatadi." : 
+                            "Bu narxlar barqaror yoki pasayish tendensiyasiga ega ekanligini ko'rsatadi."}`
+                    });
+                }
             }
         }
     }
@@ -339,6 +339,126 @@ function generateQuestionsForDataset(data, datasetId, datasetTitle) {
                             avgPassenger > avgCargo ? "Yo'lovchi tashish xizmatlarida narx o'sishi yuqoriroq bo'lgan." :
                             avgPassenger < avgCargo ? "Yuk tashish xizmatlarida narx o'sishi yuqoriroq bo'lgan." :
                             "Ikkala yo'nalishda ham narx o'sishi bir xil darajada bo'lgan."}`
+                    });
+                }
+            }
+        }
+    }
+
+    // Investitsiyalar bo'yicha maxsus savollar
+    if (datasetId === "1326" || datasetId === "1328") {
+        // Asosiy kapitalga investitsiyalar tahlili
+        const totalData = statsData.find(item => item.Klassifikator.includes("Jami"));
+        const latestPeriod = periods[periods.length - 1];
+        
+        if (totalData) {
+            // Moliyalashtirish manbalari bo'yicha tahlil
+            const sources = statsData.filter(item => !item.Klassifikator.includes("Jami"));
+            const sourceData = sources.map(source => ({
+                name: source.Klassifikator,
+                value: parseFloat(source[latestPeriod])
+            })).filter(item => !isNaN(item.value))
+              .sort((a, b) => b.value - a.value);
+
+            if (sourceData.length > 0) {
+                // Top moliyalashtirish manbalari
+                const top3 = sourceData.slice(0, 3);
+                qaData.push({
+                    dataset_id: datasetId,
+                    question: `${latestPeriod} davrida asosiy kapitalga investitsiyalarning qaysi moliyalashtirish manbalari eng yuqori ulushga ega bo'lgan?`,
+                    answer: `${latestPeriod} davrida eng yuqori ulushga ega bo'lgan moliyalashtirish manbalari: ${top3.map(s => `${s.name.toLowerCase()} (${s.value.toFixed(1)}%)`).join(', ')}.`
+                });
+
+                // Xorijiy investitsiyalar tahlili
+                const foreignInvestment = sourceData.find(s => s.name.toLowerCase().includes("xorijiy"));
+                if (foreignInvestment) {
+                    qaData.push({
+                        dataset_id: datasetId,
+                        question: `${latestPeriod} davrida xorijiy investitsiyalarning umumiy hajmdagi ulushi qanday?`,
+                        answer: `${latestPeriod} davrida xorijiy investitsiyalarning umumiy hajmdagi ulushi ${foreignInvestment.value.toFixed(1)}% ni tashkil etgan.`
+                    });
+                }
+            }
+        }
+    } else if (datasetId === "1331" || datasetId === "1332") {
+        // Investitsiyalarning hududiy taqsimoti
+        const regions = statsData.filter(item => !item.Klassifikator.includes("O'zbekiston"));
+        const latestPeriod = periods[periods.length - 1];
+        
+        if (regions.length > 0) {
+            // Hududlar reytingi
+            const regionRanking = regions.map(region => ({
+                name: region.Klassifikator,
+                value: parseFloat(region[latestPeriod])
+            })).filter(item => !isNaN(item.value))
+              .sort((a, b) => b.value - a.value);
+
+            if (regionRanking.length > 0) {
+                const top3 = regionRanking.slice(0, 3);
+                const bottom3 = regionRanking.slice(-3);
+
+                qaData.push({
+                    dataset_id: datasetId,
+                    question: `${latestPeriod} davrida investitsiyalar hajmi bo'yicha yetakchi va eng past ko'rsatkichli hududlar qaysilar?`,
+                    answer: `${latestPeriod} davrida eng yuqori investitsiya hajmi ${top3.map(r => `${r.name}da (${r.value.toFixed(1)}%)`).join(', ')} qayd etilgan. Eng past ko'rsatkichlar esa ${bottom3.reverse().map(r => `${r.name}da (${r.value.toFixed(1)}%)`).join(', ')} kuzatilgan.`
+                });
+
+                // O'sish sur'atlari tahlili
+                if (periods.length > 1) {
+                    const prevPeriod = periods[periods.length - 2];
+                    const growthRates = regionRanking.map(region => {
+                        const prevValue = parseFloat(regions.find(r => r.Klassifikator === region.name)[prevPeriod]);
+                        return {
+                            name: region.name,
+                            growth: !isNaN(prevValue) && prevValue !== 0 ? 
+                                ((region.value - prevValue) / prevValue * 100) : null
+                        };
+                    }).filter(item => item.growth !== null)
+                      .sort((a, b) => b.growth - a.growth);
+
+                    if (growthRates.length > 0) {
+                        const topGrowth = growthRates.slice(0, 3);
+                        qaData.push({
+                            dataset_id: datasetId,
+                            question: `${latestPeriod} davrida qaysi hududlarda investitsiyalar hajmining eng yuqori o'sish sur'ati qayd etilgan?`,
+                            answer: `${latestPeriod} davrida eng yuqori o'sish sur'ati ${topGrowth.map(r => `${r.name}da (${r.growth.toFixed(1)}%)`).join(', ')} qayd etilgan.`
+                        });
+                    }
+                }
+            }
+        }
+    } else if (datasetId === "1336" || datasetId === "1337") {
+        // Iqtisodiy faoliyat turlari bo'yicha investitsiyalar
+        const sectors = statsData.filter(item => !item.Klassifikator.includes("Jami"));
+        const latestPeriod = periods[periods.length - 1];
+        
+        if (sectors.length > 0) {
+            // Tarmoqlar bo'yicha taqsimot
+            const sectorData = sectors.map(sector => ({
+                name: sector.Klassifikator,
+                value: parseFloat(sector[latestPeriod])
+            })).filter(item => !isNaN(item.value))
+              .sort((a, b) => b.value - a.value);
+
+            if (sectorData.length > 0) {
+                const top5 = sectorData.slice(0, 5);
+                qaData.push({
+                    dataset_id: datasetId,
+                    question: `${latestPeriod} davrida investitsiyalar qaysi iqtisodiy faoliyat turlarida eng ko'p jalb qilingan?`,
+                    answer: `${latestPeriod} davrida eng ko'p investitsiya jalb qilingan top-5 tarmoqlar: ${top5.map(s => `${s.name.toLowerCase()} (${s.value.toFixed(1)}%)`).join(', ')}.`
+                });
+
+                // Sanoat tarmoqlari tahlili
+                const industrialSectors = sectorData.filter(s => 
+                    s.name.toLowerCase().includes("sanoat") || 
+                    s.name.toLowerCase().includes("ishlab chiqarish"));
+                
+                if (industrialSectors.length > 0) {
+                    qaData.push({
+                        dataset_id: datasetId,
+                        question: `${latestPeriod} davrida sanoat tarmoqlariga yo'naltirilgan investitsiyalarning umumiy hajmdagi ulushi qanday?`,
+                        answer: `${latestPeriod} davrida sanoat tarmoqlariga yo'naltirilgan investitsiyalar ulushi: ${
+                            industrialSectors.map(s => `${s.name.toLowerCase()}da ${s.value.toFixed(1)}%`).join(', ')}.`
                     });
                 }
             }
