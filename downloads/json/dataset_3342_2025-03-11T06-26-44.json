@@ -1,0 +1,252 @@
+[
+  {
+    "metadata": [
+      {
+        "name_uz": "Birinchi chop etilgan sana",
+        "name_ru": "Дата первой публикации",
+        "name_en": "Date of first publication",
+        "value_uz": "2023-08-02",
+        "value_ru": "2023-08-02",
+        "value_en": "2023-08-02"
+      },
+      {
+        "name_uz": "So'nggi o'zgartirilgan sana",
+        "name_ru": "Дата последнего изменения",
+        "name_en": "Last modified date",
+        "value_uz": "2023-08-02",
+        "value_ru": "2023-08-02",
+        "value_en": "2023-08-02"
+      },
+      {
+        "name_uz": "Ma'lumotlar to'plami identifikatsiya raqami (kodi)",
+        "name_ru": "Идентификационный номер индикатора (код)",
+        "name_en": "Indicator identification number (code)",
+        "value_uz": "1.01.06.0031",
+        "value_ru": "1.01.06.0031",
+        "value_en": "1.01.06.0031"
+      },
+      {
+        "name_uz": "Ma'lumotlar to‘plami nomi",
+        "name_ru": "Имя набора данных",
+        "name_en": "Data set name",
+        "value_uz": "Jamoaviy turar-joylar faoliyati (tunab qolishlar soni)",
+        "value_ru": "Деятельность коллективных средств размещения (число ночевок)",
+        "value_en": "Activities of collective accommodation facilities (Number of overnight stays)"
+      },
+      {
+        "name_uz": "Davriyligi",
+        "name_ru": "Периодичность",
+        "name_en": "Periodicity",
+        "value_uz": "yillik",
+        "value_ru": "годовой",
+        "value_en": "annual"
+      },
+      {
+        "name_uz": "O‘lchov birligi",
+        "name_ru": "Единица измерения",
+        "name_en": "Unit of measurement",
+        "value_uz": "birlik",
+        "value_ru": "единиц",
+        "value_en": "units"
+      },
+      {
+        "name_uz": "Tasniflagichlar",
+        "name_ru": "Классификаторы",
+        "name_en": "Classifiers",
+        "value_uz": "O‘zbekiston Respublikasi Maʼmuriy-hududiy tuzilmalarni (obyektlarni) belgilash tizimi idoraviy statistik tasniflagichi (MHOBT)",
+        "value_ru": "Ведомственный классификатор \"Система обозначения административно-территориальных образований (объектов) Республики Узбекистан\" (СОАТО)",
+        "value_en": "Departmental statistical classifier of the system of designation of administrative-territorial structures (objects) of the Republic of Uzbekistan"
+      },
+      {
+        "name_uz": "Rasmiy statistika tayyorlovchi",
+        "name_ru": "Составитель официальной статистики",
+        "name_en": "Official statistics preparer",
+        "value_uz": "O‘zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+        "value_ru": "Агентство статистики при Президенте Республики Узбекистан",
+        "value_en": "Statistics Agency under the President of the Republic of Uzbekistan"
+      },
+      {
+        "name_uz": "Birlamchi ma'lumot manbasi",
+        "name_ru": "Первичный источник информации",
+        "name_en": "Primary source of information",
+        "value_uz": "Hisobot va ma’muriy ma’lumotlar",
+        "value_ru": "Данные отчетности и административные данные",
+        "value_en": "Reporting data and administrative data"
+      },
+      {
+        "name_uz": "Hisoblash uslubiyati",
+        "name_ru": "Методы расчета",
+        "name_en": "Calculation methodology",
+        "value_uz": "https://lib.stat.uz/uz/features/milliy-hisoblar/360-turizm-yordamchi-xisobini-shakllantirish-bo-yicha-uslubiy-nizom",
+        "value_ru": "https://lib.stat.uz/ru/features-3/natsionalnye-scheta/366-metodicheskie-polozheniya-po-sostavleniyu-vspomogatelnogo-scheta-turizma",
+        "value_en": "https://lib.stat.uz/ru/features-3/natsionalnye-scheta/366-metodicheskie-polozheniya-po-sostavleniyu-vspomogatelnogo-scheta-turizma"
+      },
+      {
+        "name_uz": "Mas'ul boshqarma nomi",
+        "name_ru": "Ответственное управление",
+        "name_en": "Name of department",
+        "value_uz": "Makroiqtisodiy indikatorlar va milliy hisoblar boshqarmasi",
+        "value_ru": "Управление макроэкономических индикаторов и национальных счетов",
+        "value_en": "Department of Macroeconomic Indicators and National Accounts"
+      },
+      {
+        "name_uz": "Mas'ul xodim FISh",
+        "name_ru": "Oтветственный сотрудник ФИО",
+        "name_en": "Responsible officer name",
+        "value_uz": "Xamrayev Zafar Mamasaidovich",
+        "value_ru": "Хамраев Зафар Мамасаидович",
+        "value_en": "Xamrayev Zafar Mamasaidovich"
+      },
+      {
+        "name_uz": "Telefon raqami:",
+        "name_ru": "Номер телефона:",
+        "name_en": "Phone number:",
+        "value_uz": "+99871 202 80 34",
+        "value_ru": "+99871 202 80 34",
+        "value_en": "+99871 202 80 34"
+      }
+    ],
+    "data": [
+      {
+        "2019": 4472184,
+        "2020": 1710075,
+        "2021": 2524440,
+        "2022": 4257298,
+        "Code": "H.1.1",
+        "Klassifikator": "Mehmonxona",
+        "Klassifikator_ru": "Гостиница",
+        "Klassifikator_en": "Hotel"
+      },
+      {
+        "2019": 0,
+        "2020": 2356,
+        "2021": 5956,
+        "2022": 19256,
+        "Code": "H.1.2",
+        "Klassifikator": "Motel",
+        "Klassifikator_ru": "Мотель",
+        "Klassifikator_en": "Motel"
+      },
+      {
+        "2019": 10310,
+        "2020": 1296,
+        "2021": 2189,
+        "2022": 10450,
+        "Code": "H.2.3",
+        "Klassifikator": "Kemping",
+        "Klassifikator_ru": "Кемпинг",
+        "Klassifikator_en": "Camping"
+      },
+      {
+        "2019": 4838910,
+        "2020": 1758859,
+        "2021": 2583983,
+        "2022": 4348916,
+        "Code": "H.1",
+        "Klassifikator": "Mehmonxonalar va shunga o‘xshash joylashtirish vositalari",
+        "Klassifikator_ru": "Гостиницы и аналогичные средства размещения",
+        "Klassifikator_en": "Hotels and similar accommodation facilities"
+      },
+      {
+        "2019": 71086,
+        "2020": 6882,
+        "2021": 5354,
+        "2022": 0,
+        "Code": "H.1.3",
+        "Klassifikator": "Pansionat (mehmonxona shaklidagi)",
+        "Klassifikator_ru": "Пансионат (гостиничного типа)",
+        "Klassifikator_en": "Boarding house (hotel type)"
+      },
+      {
+        "2019": 295640,
+        "2020": 39546,
+        "2021": 48233,
+        "2022": 72362,
+        "Code": "H.1.4",
+        "Klassifikator": "Qisqa muddat yashash uchun mo‘ljallangan boshqa joylar",
+        "Klassifikator_ru": "Другие места краткосрочного проживания",
+        "Klassifikator_en": "Other places of short-term residence"
+      },
+      {
+        "2019": 6537564,
+        "2020": 2947403,
+        "2021": 4448009,
+        "2022": 4899283,
+        "Code": "H.2",
+        "Klassifikator": "Ixtisoslashgan joylashtirish vositalari",
+        "Klassifikator_ru": "Специализированные средства  размещения",
+        "Klassifikator_en": "Recreation organizations"
+      },
+      {
+        "2019": 164545,
+        "2020": 92074,
+        "2021": 42679,
+        "2022": 81526,
+        "Code": "H.2.1",
+        "Klassifikator": "Dam olish pansionati",
+        "Klassifikator_ru": "Пансионат отдыха",
+        "Klassifikator_en": "Recreation boarding house"
+      },
+      {
+        "2019": 231378,
+        "2020": 58004,
+        "2021": 304008,
+        "2022": 213465,
+        "Code": "H.2.2",
+        "Klassifikator": "Dam olish uylari va bazalari",
+        "Klassifikator_ru": "Дома и базы отдыха",
+        "Klassifikator_en": "Houses and recreation centers"
+      },
+      {
+        "2019": 5139698,
+        "2020": 2656701,
+        "2021": 3707591,
+        "2022": 4031300,
+        "Code": "H.2.4",
+        "Klassifikator": "Sanatoriyalar",
+        "Klassifikator_ru": "Санатории",
+        "Klassifikator_en": "Sanatorium"
+      },
+      {
+        "2019": 5249,
+        "2020": 3331,
+        "2021": 3289,
+        "2022": 4154,
+        "Code": "H.2.5",
+        "Klassifikator": "Turistik baza",
+        "Klassifikator_ru": "Туристикая база",
+        "Klassifikator_en": "Tourist base"
+      },
+      {
+        "2019": 986384,
+        "2020": 135997,
+        "2021": 388253,
+        "2022": 558388,
+        "Code": "H.2.6",
+        "Klassifikator": "Ixtisoslashgan joylashtirish vositalarining boshqa turlari",
+        "Klassifikator_ru": "Другие виды специализированных средств размещения",
+        "Klassifikator_en": "Other types of recreation organizations"
+      },
+      {
+        "2019": 107141,
+        "2020": 30944,
+        "2021": 79261,
+        "2022": 153162,
+        "Code": "H.3",
+        "Klassifikator": "Yakka tartibdagi joylashtirish vositalari",
+        "Klassifikator_ru": "Индивидуальные средства размещения",
+        "Klassifikator_en": "Individual recreation organizations"
+      },
+      {
+        "2019": 659838,
+        "2020": 444116,
+        "2021": 796461,
+        "2022": 839793,
+        "Code": "H.4",
+        "Klassifikator": "Boshqa joylashtirish vositalari",
+        "Klassifikator_ru": "Иные средства размещения",
+        "Klassifikator_en": "Other  recreation organizations"
+      }
+    ]
+  }
+]

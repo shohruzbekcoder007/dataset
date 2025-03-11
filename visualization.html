@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>O'zbekiston Norasmiy Iqtisodiyot Statistikasi</title>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .metadata {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        .metadata p {
+            margin: 5px 0;
+            color: #666;
+        }
+        .chart-container {
+            margin: 20px 0;
+            padding: 15px;
+            background-color: white;
+            border-radius: 5px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+        }
+        .controls {
+            margin: 20px 0;
+            text-align: center;
+        }
+        select {
+            padding: 8px 15px;
+            font-size: 16px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background-color: white;
+        }
+        .stats-container {
+            display: flex;
+            justify-content: space-around;
+            margin: 20px 0;
+            flex-wrap: wrap;
+        }
+        .stat-box {
+            background-color: #f8f9fa;
+            padding: 15px;
+            border-radius: 5px;
+            text-align: center;
+            min-width: 200px;
+            margin: 10px;
+        }
+        .stat-box h3 {
+            margin: 0;
+            color: #333;
+            font-size: 16px;
+        }
+        .stat-box p {
+            margin: 10px 0 0;
+            color: #007bff;
+            font-size: 20px;
+            font-weight: bold;
+        }
+        .error-container {
+            display: none;
+            background-color: #fff3f3;
+            color: #dc3545;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+            text-align: center;
+        }
+        canvas {
+            max-height: 400px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>O'zbekiston Norasmiy Iqtisodiyot Statistikasi</h1>
+        </div>
+
+        <div class="metadata">
+            <p><strong>Ma'lumotlar manbasi:</strong> <span id="dataSource"></span></p>
+            <p><strong>Dataset ID:</strong> <span id="datasetId"></span></p>
+            <p><strong>Yangilangan sana:</strong> <span id="updateDate"></span></p>
+            <p><strong>Dataset tavsifi:</strong> <span id="datasetDescription"></span></p>
+        </div>
+
+        <div id="errorContainer" class="error-container">
+            <p id="errorMessage"></p>
+        </div>
+
+        <div class="controls">
+            <select id="yearSelect">
+                <option value="" disabled>Yilni tanlang</option>
+            </select>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="gdpChart"></canvas>
+        </div>
+
+        <div class="stats-container">
+            <div class="stat-box">
+                <h3>Eng yuqori o'rtacha o'zgarish</h3>
+                <p id="maxGrowth"></p>
+            </div>
+            <div class="stat-box">
+                <h3>Eng yuqori o'zgarish tezlanishi</h3>
+                <p id="avgAccel"></p>
+            </div>
+        </div>
+
+        <div class="chart-container">
+            <canvas id="growthChart"></canvas>
+        </div>
+    </div>
+
+    <script src="visualization.js"></script>
+</body>
+</html>

@@ -1,0 +1,193 @@
+[
+  {
+    "metadata": [
+      {
+        "name_uz": "Birinchi chop etilgan sana",
+        "name_ru": "Дата первой публикации",
+        "name_en": "Date of first publication",
+        "value_uz": "2023-06-23",
+        "value_ru": "2023-06-23",
+        "value_en": "2023-06-23"
+      },
+      {
+        "name_uz": "So'nggi o'zgartirilgan sana",
+        "name_ru": "Дата последнего изменения",
+        "name_en": "Last modified date",
+        "value_uz": "2024-11-25",
+        "value_ru": "2024-11-25",
+        "value_en": "2024-11-25"
+      },
+      {
+        "name_uz": "Ma'lumotlar to'plami identifikatsiya raqami (kodi)",
+        "name_ru": "Идентификационный номер индикатора (код)",
+        "name_en": "Indicator identification number (code)",
+        "value_uz": "1.01.02.0046",
+        "value_ru": "1.01.02.0046",
+        "value_en": "1.01.02.0046"
+      },
+      {
+        "name_uz": "Ma'lumotlar to‘plami nomi",
+        "name_ru": "Имя индикатора",
+        "name_en": "Indicator name",
+        "value_uz": "Yalpi ichki mahsulot o‘sish sur’atlari (yakuniy iste’mol usulida, choraklik)",
+        "value_ru": "Темпы роста валового внутреннего продукта (по методу конечного использования, квартальные)",
+        "value_en": "Growth rates of gross domestic product (by expenditures method, quarterly)"
+      },
+      {
+        "name_uz": "Davriyligi",
+        "name_ru": "Периодичность",
+        "name_en": "Periodicity",
+        "value_uz": "choraklik",
+        "value_ru": "квартальный",
+        "value_en": "quarterly"
+      },
+      {
+        "name_uz": "O‘lchov birligi",
+        "name_ru": "Единица измерения",
+        "name_en": "Unit of measurement",
+        "value_uz": "o'tgan yilning mos davriga nisbatan % da",
+        "value_ru": "в % к соответствующему периоду предыдущего года",
+        "value_en": "in% to the corresponding period of the previous year"
+      },
+      {
+        "name_uz": "Klassifikatorlar",
+        "name_ru": "Классификаторы",
+        "name_en": "Classifiers",
+        "value_uz": "Davlat organlari funktsiyalarining tasnifi (DOFT), maqsadlar bo'yicha individual iste'mol tasnifi (MIIT), uy xo'jaliklariga xizmat ko'rsatadigan notijorat tashkilotlarning maqsadlari tasnifi (UXXKNTMT), asosiy vositalar tasniflagichi (AVT), tashqi iqtisodiy faoliyatning tovarlar nomenklaturasi (TIF TN)",
+        "value_ru": "Классификация функций органов государственного управления (КФОГУ), классификация индивидуального потребления по целям (КИПЦ), классификация целей некоммерческих организаций, обслуживающих домашние хозяйства (КЦНО), класификатор основных фондов (КОФ), товарная номенклатура внешнеэкономической деятельности (ТН ВЭД)",
+        "value_en": "Classification of the functions of government (COFOG), classification of individual consumption by purpose (COICOP), classification of purposes of non-profit institutions serving households (COPNI), сlassification of fixed assets (CFA), harmonized System (HS) Codes"
+      },
+      {
+        "name_uz": "Hisob kitobni amalga oshirgan tashkilot nomi",
+        "name_ru": "Название организации, осуществивший расчёт",
+        "name_en": "Name of the organization that carried out the calculation",
+        "value_uz": "O‘zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+        "value_ru": "Агентство статистики при Президенте Республики Узбекистан",
+        "value_en": "Statistics Agency under the President of the Republic of Uzbekistan"
+      },
+      {
+        "name_uz": "Birlamchi ma'`lumot manbasi",
+        "name_ru": "Первичный источник информации",
+        "name_en": "Primary source of information",
+        "value_uz": "Hisobot va statistik kuzatuv ma'lumotlari, ma'muriy ma'lumotlar",
+        "value_ru": "Данные отчетности и статистического обследования, административные данные",
+        "value_en": "Reporting and statistical survey data, administrative data"
+      },
+      {
+        "name_uz": "Hisoblash metodikasi",
+        "name_ru": "Методы расчета",
+        "name_en": "Calculation methodology",
+        "value_uz": "https://lib.stat.uz/uz/features/milliy-hisoblar/645-yalpi-ichki-mahsulotni-yakuniy-iste-mol-usulida-hisoblash-bo-yicha-uslubiy-nizom-2",
+        "value_ru": "https://lib.stat.uz/ru/features-3/natsionalnye-scheta/646-yalpi-ichki-mahsulotni-yakuniy-iste-mol-usulida-hisoblash-bo-yicha-uslubiy-nizom-3",
+        "value_en": "https://lib.stat.uz/ru/features-3/natsionalnye-scheta/646-yalpi-ichki-mahsulotni-yakuniy-iste-mol-usulida-hisoblash-bo-yicha-uslubiy-nizom-4"
+      },
+      {
+        "name_uz": "Mas'ul boshqarma nomi",
+        "name_ru": "Ответственное управление",
+        "name_en": "Name of department",
+        "value_uz": "Makroiqtisodiy indikatorlar va milliy hisoblar boshqarmasi",
+        "value_ru": "Управление макроэкономических индикаторов и национальных счетов",
+        "value_en": "Department on Macroeconomic Indicators and National Accounts"
+      },
+      {
+        "name_uz": "Mas'ul hodim FIO",
+        "name_ru": "Oтветственный сотрудник ФИО",
+        "name_en": "Responsible officer name",
+        "value_uz": "Xamrayev Zafar Mamasaidovich",
+        "value_ru": "Хамраев Зафар Мамасаидович",
+        "value_en": "Xamrayev Zafar Mamasaidovich"
+      },
+      {
+        "name_uz": "Telefon raqami:",
+        "name_ru": "Номер телефона:",
+        "name_en": "Phone number:",
+        "value_uz": "+99871 202 80 34",
+        "value_ru": "+99871 202 80 34",
+        "value_en": "+99871 202 80 34"
+      },
+      {
+        "name_uz": "Elektron pohcta",
+        "name_ru": "Электронная почта",
+        "name_en": "Email",
+        "value_uz": "z.xamraev@stat.uz",
+        "value_ru": "z.xamraev@stat.uz",
+        "value_en": "z.xamraev@stat.uz"
+      },
+      {
+        "name_uz": "Izoh",
+        "name_ru": "Примечание",
+        "name_en": "Note",
+        "value_uz": "2023-2024 yillar uchun dastlabki ma'lumotlar",
+        "value_ru": "данные за 2023-2024 годa предварительные",
+        "value_en": "for 2023-2024 preliminary data"
+      },
+      {
+        "name_uz": "Izoh",
+        "name_ru": "Примечание",
+        "name_en": "Note",
+        "value_uz": "ma'lumotlar o‘sib boruvchi yakun asosida keltirilgan",
+        "value_ru": "данные приведены нарастающим итогом",
+        "value_en": "cumulative data"
+      },
+      {
+        "name_uz": "Izoh",
+        "name_ru": "Примечание",
+        "name_en": "Note",
+        "value_uz": "2018- yildan boshlab ma'lumotlar MHT-2008 uslubiyatiga muvofiq, kuzatilmaydigan iqtisodiyotni hisobga olgan holda qayta ko'rib chiqilgan",
+        "value_ru": "С 2018 года данные пересмотрены с учетом ненаблюдаемой экономики в соответствии с методологией СНС- 2008",
+        "value_en": "Since 2018, the data have been revised taking into account the non-observed economy in accordance with the 2008 SNA methodology"
+      },
+      {
+        "name_uz": "Hisoblash metodikasi (qisqacha)",
+        "name_ru": "Методология расчета (кратко)",
+        "name_en": "Calculation methodology (briefly)",
+        "value_uz": "O‘sish sur’ati “Milliy hisoblar tizimi – 2008” xalqaro uslubiyoti bo‘yicha doimiy narxlardagi, ya’ni o‘tgan yilning mos davri narxlarida hisoblangan hisobot davri uchun hajmni joriy narxlardagi o‘tgan yilning mos davri hajmiga nisbati orqali hisoblanadi.",
+        "value_ru": "Cогласно международной методологии «Системы национальных счетов – 2008», темп роста рассчитывается соотношением объема за отчетный период, рассчитанного в постоянных ценах, то есть в ценах соответствующего периода предыдущего года, к объему соответствующего периода предыдущего года в текущих ценах.",
+        "value_en": "According to the international methodology of the “System of National Accounts – 2008”, the growth rate is calculated by ratio of the volume for the reporting period, calculated at constant prices, that is, at the prices of the corresponding period of the previous year, to the volume of the corresponding period of the previous year at current prices."
+      }
+    ],
+    "data": [
+      {
+        "Code": "1700",
+        "Klassifikator": "O‘zbekiston Respublikasi",
+        "Klassifikator_ru": "Республика Узбекистан",
+        "Klassifikator_en": "Republic of Uzbekistan",
+        "2016-Q1": 106.2,
+        "2016-Q2": 105.9,
+        "2016-Q3": 106.4,
+        "2016-Q4": 105.9,
+        "2017-Q1": 104.8,
+        "2017-Q2": 104.3,
+        "2017-Q3": 103.9,
+        "2017-Q4": 104.4,
+        "2018-Q1": 105.9,
+        "2018-Q2": 106.2,
+        "2018-Q3": 106,
+        "2018-Q4": 105.6,
+        "2019-Q1": 106.8,
+        "2019-Q2": 106.8,
+        "2019-Q3": 106.7,
+        "2019-Q4": 106.8,
+        "2020-Q1": 104.9,
+        "2020-Q2": 100.8,
+        "2020-Q3": 100,
+        "2020-Q4": 101.6,
+        "2021-Q1": 104.8,
+        "2021-Q2": 108.4,
+        "2021-Q3": 108.8,
+        "2021-Q4": 108,
+        "2022-Q1": 105.1,
+        "2022-Q2": 104.5,
+        "2022-Q3": 105.3,
+        "2022-Q4": 106,
+        "2023-Q1": 106.5,
+        "2023-Q2": 107.1,
+        "2023-Q3": 106.5,
+        "2023-Q4": 106.3,
+        "2024-Q1": 106.2,
+        "2024-Q2": 106.6,
+        "2024-Q3": 106.6
+      }
+    ]
+  }
+]

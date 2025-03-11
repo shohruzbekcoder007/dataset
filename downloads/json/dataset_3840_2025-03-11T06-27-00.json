@@ -1,0 +1,198 @@
+[
+  {
+    "metadata": [
+      {
+        "name_uz": "Birinchi chop etilgan sana",
+        "name_ru": "Дата первой публикации",
+        "name_en": "Date of first publication",
+        "value_uz": "2024-08-06",
+        "value_ru": "2024-08-06",
+        "value_en": "2024-08-06"
+      },
+      {
+        "name_uz": "So'nggi o'zgartirilgan sana",
+        "name_ru": "Дата последнего изменения",
+        "name_en": "Last modified date",
+        "value_uz": "2024-08-21",
+        "value_ru": "2024-08-21",
+        "value_en": "2024-08-21"
+      },
+      {
+        "name_uz": "Ma'lumotlar to'plami identifikatsiya raqami (kodi)",
+        "name_ru": "Идентификационный номер индикатора (код)",
+        "name_en": "Indicator identification number (code)",
+        "value_uz": "1.01.08.0004",
+        "value_ru": "1.01.08.0004",
+        "value_en": "1.01.08.0004"
+      },
+      {
+        "name_uz": "Ma'lumotlar to'plami nomi",
+        "name_ru": "Имя индикатора",
+        "name_en": "Indicator name",
+        "value_uz": "Norasmiy iqtisodiyotning YAIMdagi ulushi, foizda",
+        "value_ru": "Доля неформальной экономики в ВВП, в процентах",
+        "value_en": "Share of informal economy in GDP, in percent"
+      },
+      {
+        "name_uz": "Davriyligi",
+        "name_ru": "Периодичность",
+        "name_en": "Periodicity",
+        "value_uz": "yillik",
+        "value_ru": "ежегодный",
+        "value_en": "annual"
+      },
+      {
+        "name_uz": "O‘lchov birligi",
+        "name_ru": "Единица измерения",
+        "name_en": "Unit of measurement",
+        "value_uz": "tarkibi foizda",
+        "value_ru": "структура в процентах",
+        "value_en": "percentage structure"
+      },
+      {
+        "name_uz": "Klassifikatorlar",
+        "name_ru": "Классификаторы",
+        "name_en": "Classifiers",
+        "value_uz": "O'zbekiston Respublikasi iqtisodiy faoliyat turlari tasniflagichi (IFUT-2)",
+        "value_ru": "Классификатор видов экономической деятельности Республики Узбекистан (ОКЭД-2)",
+        "value_en": "Classification on kinds of economic activities of the Republic of Uzbekistan (NACE Rev.2)"
+      },
+      {
+        "name_uz": "Rasmiy statistika tayyorlovchi",
+        "name_ru": "Составитель официальной статистики",
+        "name_en": "Official statistics preparer",
+        "value_uz": "O‘zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+        "value_ru": "Агентство статистики при Президенте Республики Узбекистан",
+        "value_en": "Statistics Agency under the President of the Republic of Uzbekistan"
+      },
+      {
+        "name_uz": "Birlamchi ma'`lumot manbasi",
+        "name_ru": "Первичный источник информации",
+        "name_en": "Primary source of information",
+        "value_uz": "Kuzatuvlar va ma'muriy ma'lumotlar",
+        "value_ru": "Обследования и административные данные",
+        "value_en": "Surveys and administrative data"
+      },
+      {
+        "name_uz": "Hisoblash metodikasi",
+        "name_ru": "Методы расчета",
+        "name_en": "Calculation methodology",
+        "value_uz": "https://lib.stat.uz/uz/features/milliy-hisoblar/842-kuzatilmaydigan-iqtisodiyotni-statistik-baholash-bo-yicha-uslubiy-nizom",
+        "value_ru": "https://lib.stat.uz/ru/features-3/natsionalnye-scheta/843-kuzatilmaydigan-iqtisodiyotni-statistik-baholash-bo-yicha-uslubiy-nizom-2",
+        "value_en": "https://lib.stat.uz/ru/features-3/natsionalnye-scheta/843-kuzatilmaydigan-iqtisodiyotni-statistik-baholash-bo-yicha-uslubiy-nizom-2"
+      },
+      {
+        "name_uz": "Mas'ul boshqarma nomi",
+        "name_ru": "Ответственное управление",
+        "name_en": "Name of department",
+        "value_uz": "Makroiqtisodiy indikatorlar va milliy hisoblar boshqarmasi",
+        "value_ru": "Управление макроэкономических индикаторов и национальных счетов",
+        "value_en": "Department of Macroeconomic Indicators and National Accounts"
+      },
+      {
+        "name_uz": "Mas'ul xodim FISh",
+        "name_ru": "Oтветственный сотрудник ФИО",
+        "name_en": "Responsible officer name",
+        "value_uz": "Kamilova Ziyoda Abdurahimovna",
+        "value_ru": "Камилова Зиеда Абдурахимовна",
+        "value_en": "Kamilova Ziyoda Abdurahimovna"
+      },
+      {
+        "name_uz": "Telefon raqami:",
+        "name_ru": "Номер телефона:",
+        "name_en": "Phone number:",
+        "value_uz": "+99871 202 80 41",
+        "value_ru": "+99871 202 80 41",
+        "value_en": "+99871 202 80 41"
+      },
+      {
+        "name_uz": "Elektron pohcta",
+        "name_ru": "Электронная почта",
+        "name_en": "Email",
+        "value_uz": "z.kamilova@stat.uz",
+        "value_ru": "z.kamilova@stat.uz",
+        "value_en": "z.kamilova@stat.uz"
+      },
+      {
+        "name_uz": "Izoh",
+        "name_ru": "Примечание",
+        "name_en": "Note",
+        "value_uz": "Norasmiy iqtisodiyot – uy xo‘jaliklari yoki jismoniy shaxslar tomonidan belgilangan tartibda ro‘yxatdan o‘tmagan holda amalga oshiriladigan ishlab chiqarish (xizmat ko‘rsatish) bilan bog‘liq iqtisodiy faoliyat; Kuzatilmaydigan iqtisodiyot – doimiy statistika kuzatuvlarida to‘liq yoki qisman qamrab olinmagan, shuningdek, statistika ko‘rsatkichlarida aks ettirishda bilvosita usullar orqali baholanadigan iqtisodiy faoliyat turlari.",
+        "value_ru": "Неформальная экономика – экономическая деятельность, связанная с производством продукции (оказанием услуг), осуществляемая домашними хозяйствами или физическими лицами без регистрации в установленном порядке; Ненаблюдаемая экономика – виды экономической деятельности, которые полностью или частично не охвачены регулярными статистическими наблюдениями, а также оцениваются косвенными методами при отражении в статистических показателях.",
+        "value_en": "Informal economy - economic activity related to the production of goods (provision of services), carried out by households or individuals without registration in the established manner;  Non-observed economy - types of economic activity that are not fully or partially covered by regular statistical observations, and are also estimated by indirect methods when reflected in statistical indicators."
+      }
+    ],
+    "data": [
+      {
+        "2017": 37.8,
+        "2018": 34.3,
+        "2019": 31.1,
+        "2020": 31,
+        "2021": 29.7,
+        "2022": 27.2,
+        "2023": 26.6,
+        "2024": 26.4,
+        "Code": "jami",
+        "Klassifikator": "JAMI",
+        "Klassifikator_ru": "ВСЕГО",
+        "Klassifikator_en": "TOTAL"
+      },
+      {
+        "2017": 68.4,
+        "2018": 70.8,
+        "2019": 68.2,
+        "2020": 66.9,
+        "2021": 65.4,
+        "2022": 62.2,
+        "2023": 62.9,
+        "2024": 63.6,
+        "Code": "A",
+        "Klassifikator": "Qishloq, o‘rmon vа bаliq xo‘jаligi",
+        "Klassifikator_ru": "Сельское, лесное и рыбное хозяйство",
+        "Klassifikator_en": "Agriculture, forestry and fisheries"
+      },
+      {
+        "2017": 17.1,
+        "2018": 10.5,
+        "2019": 9.5,
+        "2020": 8.6,
+        "2021": 6.1,
+        "2022": 4.9,
+        "2023": 5,
+        "2024": 5.1,
+        "Code": "B,C,D,E",
+        "Klassifikator": "Sanoat",
+        "Klassifikator_ru": "Промышленность",
+        "Klassifikator_en": "Industry"
+      },
+      {
+        "2017": 36.6,
+        "2018": 33.7,
+        "2019": 30.3,
+        "2020": 29.5,
+        "2021": 28.8,
+        "2022": 25.9,
+        "2023": 23.9,
+        "2024": 25.1,
+        "Code": "G,I,H,J,K,L,M,N,O,P,Q,R,S",
+        "Klassifikator": "Xizmatlar",
+        "Klassifikator_ru": "Услуги",
+        "Klassifikator_en": "Services"
+      },
+      {
+        "2017": 41.1,
+        "2018": 34.1,
+        "2019": 29.6,
+        "2020": 30.2,
+        "2021": 31,
+        "2022": 30.9,
+        "2023": 31.5,
+        "2024": 31.3,
+        "Code": "F",
+        "Klassifikator": "Qurilish",
+        "Klassifikator_ru": "Строительство",
+        "Klassifikator_en": "Construction"
+      }
+    ]
+  }
+]

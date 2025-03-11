@@ -1,0 +1,155 @@
+[
+  {
+    "metadata": [
+      {
+        "name_uz": "Birinchi chop etilgan sana",
+        "name_ru": "Дата первой публикации",
+        "name_en": "Date of first publication",
+        "value_uz": "2023-03-31",
+        "value_ru": "2023-03-31",
+        "value_en": "2023-03-31"
+      },
+      {
+        "name_uz": "So'nggi o'zgartirilgan sana",
+        "name_ru": "Дата последнего изменения",
+        "name_en": "Last modified date",
+        "value_uz": "2024-08-21",
+        "value_ru": "2024-08-21",
+        "value_en": "2024-08-21"
+      },
+      {
+        "name_uz": "Ma'lumotlar to'plami identifikatsiya raqami (kodi)",
+        "name_ru": "Идентификационный номер индикатора (код)",
+        "name_en": "Indicator identification number (code)",
+        "value_uz": "1.01.04.0001",
+        "value_ru": "1.01.04.0001",
+        "value_en": "1.01.04.0001"
+      },
+      {
+        "name_uz": "Ma'lumotlar to'plami nomi",
+        "name_ru": "Имя индикатора",
+        "name_en": "Indicator name",
+        "value_uz": "Xodimlar ish haqining YAIMdagi ulushi",
+        "value_ru": "Доля оплаты труда наемных работников в ВВП",
+        "value_en": "Share of compensation of employees in GDP"
+      },
+      {
+        "name_uz": "Davriyligi",
+        "name_ru": "Периодичность",
+        "name_en": "Periodicity",
+        "value_uz": "yillik",
+        "value_ru": "ежегодный",
+        "value_en": "annual"
+      },
+      {
+        "name_uz": "O‘lchov birligi",
+        "name_ru": "Единица измерения",
+        "name_en": "Unit of measurement",
+        "value_uz": "tarkibi foizda",
+        "value_ru": "структура в процентах",
+        "value_en": "percentage structure"
+      },
+      {
+        "name_uz": "Klassifikatorlar",
+        "name_ru": "Классификаторы",
+        "name_en": "Classifiers",
+        "value_uz": "O'zbekiston Respublikasi iqtisodiy faoliyat turlari tasniflagichi (IFUT-2)",
+        "value_ru": "\"Классификатор видов экономической деятельности Республики Узбекистан (ОКЭД-2)",
+        "value_en": "Classification on kinds of economic activities of the Republic of Uzbekistan (NACE Rev.2)"
+      },
+      {
+        "name_uz": "Hisob kitobni amalga oshirgan tashkilot nomi",
+        "name_ru": "Название организации, осуществивший расчёт",
+        "name_en": "Name of the organization that carried out the calculation",
+        "value_uz": "O‘zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+        "value_ru": "Агентство статистики при Президенте Республики Узбекистан",
+        "value_en": "Statistics Agency under the President of the Republic of Uzbekistan"
+      },
+      {
+        "name_uz": "Birlamchi ma'lumot manbasi",
+        "name_ru": "Первичный источник информации",
+        "name_en": "Primary source of information",
+        "value_uz": "Hisobot va statistik kuzatuv ma'lumotlari, ma'muriy ma'lumotlar",
+        "value_ru": "Данные отчетности и статистического обследования, административные данные",
+        "value_en": "Reporting and statistical survey data, administrative data"
+      },
+      {
+        "name_uz": "Hisoblash metodikasi",
+        "name_ru": "Методы расчета",
+        "name_en": "Calculation methodology",
+        "value_uz": "https://lib.stat.uz/uz/features/milliy-hisoblar/705-daromadlarning-shakllanishi-hisobini-shakllantirish-bo-yicha-vaqtinchalik-uslubiy-nizom",
+        "value_ru": "https://lib.stat.uz/ru/features-3/natsionalnye-scheta/706-daromadlarning-shakllanishi-hisobini-shakllantirish-bo-yicha-vaqtinchalik-uslubiy-nizom-2",
+        "value_en": "https://lib.stat.uz/ru/features-3/natsionalnye-scheta/706-daromadlarning-shakllanishi-hisobini-shakllantirish-bo-yicha-vaqtinchalik-uslubiy-nizom-2"
+      },
+      {
+        "name_uz": "Mas'ul boshqarma nomi",
+        "name_ru": "Ответственное управление",
+        "name_en": "Name of department",
+        "value_uz": "Makroiqtisodiy indikatorlar va milliy hisoblar boshqarmasi",
+        "value_ru": "Управление макроэкономических индикаторов и национальных счетов",
+        "value_en": "Department on Macroeconomic Indicators and National Accounts"
+      },
+      {
+        "name_uz": "Mas'ul xodim FIO",
+        "name_ru": "Oтветственный сотрудник ФИО",
+        "name_en": "Responsible officer name",
+        "value_uz": "Mexmonov Jahongir Osimxonovich",
+        "value_ru": "Мехмонов Жахонгир Осимхонович",
+        "value_en": "Mexmonov Jahongir Osimxonovich"
+      },
+      {
+        "name_uz": "Telefon raqami:",
+        "name_ru": "Номер телефона:",
+        "name_en": "Phone number:",
+        "value_uz": "+99871 202 80 32",
+        "value_ru": "+99871 202 80 32",
+        "value_en": "+99871 202 80 32"
+      },
+      {
+        "name_uz": "Elektron pochta",
+        "name_ru": "Электронная почта",
+        "name_en": "Email",
+        "value_uz": "j.mehmonov@stat.uz",
+        "value_ru": "j.mehmonov@stat.uz",
+        "value_en": "j.mehmonov@stat.uz"
+      },
+      {
+        "name_uz": "Izoh",
+        "name_ru": "Примечание",
+        "name_en": "Note",
+        "value_uz": "2018-2020- yillar uchun yillik ma'lumotlar MHT 2008 uslubiyatiga muvofiq qayta ko'rib chiqilgan ma'lumotlarni hisobga olgan holda berilgan;",
+        "value_ru": "Годовые данные за 2018-2020 годы приведены с учетом пересмотренных данных в соответствии с методологией СНС 2008;",
+        "value_en": "Annual data for 2018-2020 are given taking into account the revised data in accordance with the 2008 SNA methodology;"
+      },
+      {
+        "name_uz": "Hisoblash metodikasi (qisqacha)",
+        "name_ru": "Методология расчета (кратко)",
+        "name_en": "Calculation methodology (briefly)",
+        "value_uz": "Xodimlar ish haqining YAIMdagi ulushi – hisobot davrida ish beruvchi tomonidan xodimga bajargan ishi uchun to‘lanishi kerak bo‘lgan pul yoki natura ko‘rinishidagi ish haqi. Uni YAIMga bo‘lish orqali aniqlanadi.",
+        "value_ru": "Долей заработной платы работников в ВВП является заработная плата в денежной или натуральной форме, которая должна быть выплачена работодателем работнику за выполненную работу в отчетном периоде. Он определяется соотношением к ВВП.",
+        "value_en": "The share of wages of workers in GDP is the wage in cash or in kind that must be paid by the employer to the employee for work performed in the reporting period. It is determined by the ratio to GDP."
+      }
+    ],
+    "data": [
+      {
+        "2010": 24.7,
+        "2011": 24.8,
+        "2012": 26.8,
+        "2013": 27.3,
+        "2014": 25.8,
+        "2015": 25.3,
+        "2016": 25.3,
+        "2017": 22.5,
+        "2018": 22.4,
+        "2019": 24.8,
+        "2020": 24.6,
+        "2021": 25.3,
+        "2022": 26.1,
+        "Code": "1700",
+        "Klassifikator": "O‘zbekiston Respublikasi",
+        "Klassifikator_ru": "Республика Узбекистан",
+        "Klassifikator_en": "Republic of Uzbekistan"
+      }
+    ]
+  }
+]

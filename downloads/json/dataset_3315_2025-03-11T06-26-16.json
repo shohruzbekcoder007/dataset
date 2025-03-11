@@ -1,0 +1,232 @@
+[
+  {
+    "metadata": [
+      {
+        "name_uz": "Birinchi chop etilgan sana",
+        "name_ru": "Дата первой публикации",
+        "name_en": "Date of first publication",
+        "value_uz": "2023-07-31",
+        "value_ru": "2023-07-31",
+        "value_en": "2023-07-31"
+      },
+      {
+        "name_uz": "So'nggi o'zgartirilgan sana",
+        "name_ru": "Дата последнего изменения",
+        "name_en": "Last modified date",
+        "value_uz": "2023-07-31",
+        "value_ru": "2023-07-31",
+        "value_en": "2023-07-31"
+      },
+      {
+        "name_uz": "Ma'lumotlar to'plami identifikatsiya raqami (kodi)",
+        "name_ru": "Идентификационный номер индикатора (код)",
+        "name_en": "Indicator identification number (code)",
+        "value_uz": "1.01.06.0004",
+        "value_ru": "1.01.06.0004",
+        "value_en": "1.01.06.0004"
+      },
+      {
+        "name_uz": "Ma'lumotlar to‘plami nomi",
+        "name_ru": "Имя набора данных",
+        "name_en": "Data set name",
+        "value_uz": "Ichki turizmga oid xarajatlar (tashriflarning barcha turlari bo‘yicha)",
+        "value_ru": "Расходы, относящиеся к внутреннему туризму (все виды поездок)",
+        "value_en": "Domestic tourism expenditure (All types of trips)"
+      },
+      {
+        "name_uz": "Davriyligi",
+        "name_ru": "Периодичность",
+        "name_en": "Periodicity",
+        "value_uz": "yillik",
+        "value_ru": "годовой",
+        "value_en": "annual"
+      },
+      {
+        "name_uz": "O‘lchov birligi",
+        "name_ru": "Единица измерения",
+        "name_en": "Unit of measurement",
+        "value_uz": "milliy valyuta, mln. so`m",
+        "value_ru": "национальная валюта, млн.сум.",
+        "value_en": "national currency, mln soums"
+      },
+      {
+        "name_uz": "Tasniflagichlar",
+        "name_ru": "Классификаторы",
+        "name_en": "Classifiers",
+        "value_uz": "O‘zbekiston Respublikasi Maʼmuriy-hududiy tuzilmalarni (obyektlarni) belgilash tizimi idoraviy statistik tasniflagichi (MHOBT)",
+        "value_ru": "Ведомственный классификатор \"Система обозначения административно-территориальных образований (объектов) Республики Узбекистан\" (СОАТО)",
+        "value_en": "Departmental statistical classifier of the system of designation of administrative-territorial structures (objects) of the Republic of Uzbekistan"
+      },
+      {
+        "name_uz": "Rasmiy statistika tayyorlovchi",
+        "name_ru": "Составитель официальной статистики",
+        "name_en": "Official statistics preparer",
+        "value_uz": "O‘zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+        "value_ru": "Агентство статистики при Президенте Республики Узбекистан",
+        "value_en": "Statistics Agency under the President of the Republic of Uzbekistan"
+      },
+      {
+        "name_uz": "Birlamchi ma'lumot manbasi",
+        "name_ru": "Первичный источник информации",
+        "name_en": "Primary source of information",
+        "value_uz": "Hisobot va ma’muriy ma’lumotlar",
+        "value_ru": "Данные отчетности и административные данные",
+        "value_en": "Reporting data and administrative data"
+      },
+      {
+        "name_uz": "Hisoblash uslubiyati",
+        "name_ru": "Методы расчета",
+        "name_en": "Calculation methodology",
+        "value_uz": "https://lib.stat.uz/uz/features/milliy-hisoblar/360-turizm-yordamchi-xisobini-shakllantirish-bo-yicha-uslubiy-nizom",
+        "value_ru": "https://lib.stat.uz/ru/features-3/natsionalnye-scheta/366-metodicheskie-polozheniya-po-sostavleniyu-vspomogatelnogo-scheta-turizma",
+        "value_en": "https://lib.stat.uz/ru/features-3/natsionalnye-scheta/366-metodicheskie-polozheniya-po-sostavleniyu-vspomogatelnogo-scheta-turizma"
+      },
+      {
+        "name_uz": "Mas'ul boshqarma nomi",
+        "name_ru": "Ответственное управление",
+        "name_en": "Name of department",
+        "value_uz": "Makroiqtisodiy indikatorlar va milliy hisoblar boshqarmasi",
+        "value_ru": "Управление макроэкономических индикаторов и национальных счетов",
+        "value_en": "Department of Macroeconomic Indicators and National Accounts"
+      },
+      {
+        "name_uz": "Mas'ul xodim FISh",
+        "name_ru": "Oтветственный сотрудник ФИО",
+        "name_en": "Responsible officer name",
+        "value_uz": "Xamrayev Zafar Mamasaidovich",
+        "value_ru": "Хамраев Зафар Мамасаидович",
+        "value_en": "Xamrayev Zafar Mamasaidovich"
+      },
+      {
+        "name_uz": "Telefon raqami:",
+        "name_ru": "Номер телефона:",
+        "name_en": "Phone number:",
+        "value_uz": "+99871 202 80 34",
+        "value_ru": "+99871 202 80 34",
+        "value_en": "+99871 202 80 34"
+      }
+    ],
+    "data": [
+      {
+        "2019": 19674340.6,
+        "2020": 4435242.8,
+        "2021": 5364406.8,
+        "2022": 6191753.9,
+        "Code": "А",
+        "Klassifikator": "Iste'mol mahsulotlari",
+        "Klassifikator_ru": "Потребительские продукты",
+        "Klassifikator_en": "Consumption products"
+      },
+      {
+        "2019": 10658444.5,
+        "2020": 1422814,
+        "2021": 3655840.8,
+        "2022": 3887468.5,
+        "Code": "А.1",
+        "Klassifikator": "Odatiy turistik mahsulotlar",
+        "Klassifikator_ru": "Типичные туристские продукты",
+        "Klassifikator_en": "Tourism characteristic products"
+      },
+      {
+        "2019": 1122615.2,
+        "2020": 19194.8,
+        "2021": 382196.7,
+        "2022": 409781.8,
+        "Code": "А.1.1",
+        "Klassifikator": "Tashrif buyuruvchilarni joylashtirish  bo‘yicha xizmatlar",
+        "Klassifikator_ru": "Услуги по размещению посетителей",
+        "Klassifikator_en": "Accommodation services for visitors"
+      },
+      {
+        "2019": 2517457.3,
+        "2020": 283872.6,
+        "2021": 835532.4,
+        "2022": 942022.3,
+        "Code": "А.1.2",
+        "Klassifikator": "Umumiy ovqatlanish korxonalari xizmatlari",
+        "Klassifikator_ru": "Услуги предприятий общественного питания",
+        "Klassifikator_en": "Food-and beverage-serving services"
+      },
+      {
+        "2019": 397142.1,
+        "2020": 39793.7,
+        "2021": 112779.9,
+        "2022": 46514.7,
+        "Code": "А.1.3",
+        "Klassifikator": "Temir yo‘l yo‘lovchi transporti xizmatlari",
+        "Klassifikator_ru": "Услуги железнодорожного пассажирского  транспорта",
+        "Klassifikator_en": "Railway passenger transport services"
+      },
+      {
+        "2019": 3692726.1,
+        "2020": 597332.4,
+        "2021": 1459667.7,
+        "2022": 1580962.1,
+        "Code": "А.1.4",
+        "Klassifikator": "Quruqlikdagi yo‘lovchi transporti xizmatlari",
+        "Klassifikator_ru": "Услуги дорожного пассажирского транспорта",
+        "Klassifikator_en": "Road passenger transport services"
+      },
+      {
+        "2019": 2194639.3,
+        "2020": 431574.5,
+        "2021": 733537.8,
+        "2022": 738054.1,
+        "Code": "А.1.5",
+        "Klassifikator": "Havo yo‘li yo‘lovchi transporti xizmatlari",
+        "Klassifikator_ru": "Услуги воздушного пассажирского транспорта",
+        "Klassifikator_en": "Air passenger transport services"
+      },
+      {
+        "2019": 283850,
+        "2020": 315.4,
+        "2021": 1684.3,
+        "2022": 4506,
+        "Code": "А.1.7",
+        "Klassifikator": "Turizm agentliklari xizmatlari va bron  qilish bo‘yicha boshqa xizmatlar",
+        "Klassifikator_ru": "Туристические агентства и другие услуги по бронированию",
+        "Klassifikator_en": "Travel agencies and other reservation services"
+      },
+      {
+        "2019": 186114.4,
+        "2020": 21985.1,
+        "2021": 53810.4,
+        "2022": 69034.7,
+        "Code": "А.1.8",
+        "Klassifikator": "Madaniyat sohasidagi xizmatlar",
+        "Klassifikator_ru": "Услуги в области культуры",
+        "Klassifikator_en": "Cultural services"
+      },
+      {
+        "2019": 263900,
+        "2020": 28745.5,
+        "2021": 76631.6,
+        "2022": 100597.7,
+        "Code": "А.1.9",
+        "Klassifikator": "Sport va dam olish bo‘yicha xizmatlari",
+        "Klassifikator_ru": "Спортивные и рекреационные услуги",
+        "Klassifikator_en": "Sports and recreational services"
+      },
+      {
+        "2019": 9015896.1,
+        "2020": 3012428.8,
+        "2021": 1708566,
+        "2022": 2304285.4,
+        "Code": "А.2",
+        "Klassifikator": "Boshqa iste'mol mahsulotlari",
+        "Klassifikator_ru": "Другие потребительские продукты",
+        "Klassifikator_en": "Other consumption products"
+      },
+      {
+        "2019": 2593218.5,
+        "2020": 362401.5,
+        "2021": 440270.5,
+        "2022": 744841,
+        "Code": "B",
+        "Klassifikator": "Boshqa mahsulotlar",
+        "Klassifikator_ru": "Другие продукты",
+        "Klassifikator_en": "Other products"
+      }
+    ]
+  }
+]

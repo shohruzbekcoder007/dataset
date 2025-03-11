@@ -1,0 +1,4970 @@
+{
+  "url": "https://stat.uz/uz/rasmiy-statistika/national-accounts-2",
+  "title": "MIlliy hisoblar",
+  "content": {
+    "paragraphs": [],
+    "links": [
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_544.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_544.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_544.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_544.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_544.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_548.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_548.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_548.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_548.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_548.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_570.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_570.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_570.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_570.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_570.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_572.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_572.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_572.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_572.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_572.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_575.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_575.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_575.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_575.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_575.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1209.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1209.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1209.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1209.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1209.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_578.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_578.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_578.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_578.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_578.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_580.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_580.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_580.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_580.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_580.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_582.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_582.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_582.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_582.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_582.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1211.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1211.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1211.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1211.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1211.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_583.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_583.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_583.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_583.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_583.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_584.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_584.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_584.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_584.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_584.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1582.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1582.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1582.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1582.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1582.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1582/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1583.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1583.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1583.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1583.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1583.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1583/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1584.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1584.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1584.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1584.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1584.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1584/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1585.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1585.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1585.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1585.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1585.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1585/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1586.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1586.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1586.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1586.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1586.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1586/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1587.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1587.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1587.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1587.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1587.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1587/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1588.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1588.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1588.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1588.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1588.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1588/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1589.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1589.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1589.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1589.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1589.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1589/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1775.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1775.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1775.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1775.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1775.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1775/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1778.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1778.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1778.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1778.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1778.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1778/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1784.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1784.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1784.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1784.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1784.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1784/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1857.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1857.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1857.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1857.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1857.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1857/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1861.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1861.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1861.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1861.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1861.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1861/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1869.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1869.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1869.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1869.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1869.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1869/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1870.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1870.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1870.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1870.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1870.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1870/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1871.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1871.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1871.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1871.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1871.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1871/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1773.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1773.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1773.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1773.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1773.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1773/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1777.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1777.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1777.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1777.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1777.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1777/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1780.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1780.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1780.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1780.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1780.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1780/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1783.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1783.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1783.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1783.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1783.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1783/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1786.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1786.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1786.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1786.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1786.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1786/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1792.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1792.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1792.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1792.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1792.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1792/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1794.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1794.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1794.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1794.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1794.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1797.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1797.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1797.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1797.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1797.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1801.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1801.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1801.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1801.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1801.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1803.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1803.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1803.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1803.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1803.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1809.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1809.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1809.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1809.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1809.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1815.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1815.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1815.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1815.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1815.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1820.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1820.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1820.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1820.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1820.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1825.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1825.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1825.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1825.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1825.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1829.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1829.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1829.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1829.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1829.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1834.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1834.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1834.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1834.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1834.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1837.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1837.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1837.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1837.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1837.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1840.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1840.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1840.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1840.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1840.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/1840/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_587.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_587.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_587.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_587.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_587.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_591.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_591.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_591.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_591.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_591.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_593.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_593.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_593.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_593.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_593.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_595.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_595.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_595.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_595.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_595.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_597.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_597.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_597.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_597.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_597.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_601.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_601.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_601.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_601.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_601.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_609.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_609.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_609.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_609.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_609.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_613.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_613.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_613.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_613.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_613.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_615.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_615.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_615.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_615.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_615.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_620.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_620.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_620.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_620.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_620.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_621.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_621.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_621.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_621.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_621.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_625.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_625.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_625.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_625.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_625.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_627.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_627.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_627.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_627.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_627.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_629.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_629.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_629.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_629.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_629.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_631.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_631.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_631.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_631.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_631.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_633.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_633.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_633.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_633.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_633.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_636.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_636.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_636.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_636.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_636.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_637.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_637.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_637.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_637.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_637.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_640.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_640.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_640.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_640.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_640.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_641.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_641.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_641.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_641.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_641.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_642.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_642.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_642.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_642.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_642.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_651.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_651.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_651.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_651.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_651.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_652.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_652.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_652.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_652.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_652.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_653.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_653.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_653.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_653.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_653.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_654.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_654.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_654.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_654.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_654.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_655.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_655.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_655.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_655.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_655.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_656.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_656.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_656.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_656.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_656.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3104.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3104.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3104.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3104.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3104.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3105.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3105.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3105.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3105.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3105.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3106.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3106.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3106.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3106.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3106.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3107.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3107.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3107.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3107.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3107.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3108.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3108.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3108.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3108.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3108.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3109.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3109.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3109.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3109.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3109.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3110.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3110.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3110.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3110.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3110.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3111.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3111.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3111.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3111.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3111.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3112.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3112.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3112.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3112.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3112.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3113.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3113.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3113.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3113.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3113.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3114.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3114.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3114.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3114.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3114.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3115.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3115.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3115.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3115.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3115.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3116.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3116.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3116.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3116.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3116.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3117.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3117.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3117.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3117.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3117.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3118.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3118.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3118.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3118.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3118.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3119.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3119.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3119.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3119.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3119.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3120.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3120.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3120.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3120.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3120.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3121.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3121.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3121.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3121.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3121.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3122.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3122.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3122.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3122.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3122.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3123.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3123.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3123.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3123.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3123.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3124.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3124.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3124.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3124.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3124.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3125.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3125.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3125.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3125.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3125.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3126.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3126.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3126.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3126.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3126.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3127.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3127.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3127.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3127.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3127.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3128.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3128.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3128.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3128.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3128.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3129.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3129.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3129.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3129.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3129.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_658.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_658.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_658.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_658.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_658.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/658/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_660.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_660.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_660.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_660.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_660.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/660/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_661.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_661.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_661.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_661.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_661.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/661/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1299.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1299.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1299.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1299.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1299.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2757.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2757.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2757.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2757.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2757.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2758.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2758.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2758.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2758.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2758.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2759.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2759.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2759.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2759.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2759.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3837.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3837.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3837.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3837.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3837.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3838.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3838.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3838.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3838.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3838.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3839.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3839.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3839.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3839.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3839.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3840.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3840.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3840.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3840.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3840.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3841.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3841.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3841.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3841.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3841.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3842.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3842.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3842.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3842.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3842.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3843.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3843.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3843.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3843.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3843.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/3843/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3844.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3844.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3844.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3844.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3844.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/3844/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3845.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3845.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3845.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3845.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3845.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/3845/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3846.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3846.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3846.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3846.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3846.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/3846/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3847.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3847.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3847.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3847.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3847.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/3847/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3848.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3848.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3848.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3848.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3848.xml"
+      },
+      {
+        "text": "gis",
+        "href": "https://siat.stat.uz/reports-filed/3848/map-data"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3312.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3312.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3312.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3312.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3312.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3313.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3313.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3313.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3313.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3313.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3314.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3314.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3314.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3314.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3314.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3315.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3315.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3315.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3315.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3315.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3316.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3316.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3316.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3316.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3316.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3317.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3317.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3317.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3317.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3317.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3318.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3318.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3318.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3318.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3318.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3319.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3319.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3319.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3319.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3319.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3320.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3320.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3320.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3320.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3320.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3321.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3321.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3321.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3321.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3321.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3322.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3322.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3322.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3322.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3322.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3323.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3323.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3323.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3323.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3323.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3324.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3324.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3324.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3324.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3324.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3325.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3325.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3325.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3325.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3325.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3326.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3326.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3326.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3326.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3326.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3327.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3327.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3327.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3327.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3327.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3328.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3328.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3328.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3328.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3328.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3329.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3329.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3329.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3329.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3329.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3330.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3330.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3330.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3330.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3330.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3331.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3331.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3331.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3331.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3331.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3332.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3332.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3332.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3332.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3332.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3333.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3333.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3333.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3333.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3333.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3334.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3334.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3334.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3334.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3334.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3335.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3335.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3335.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3335.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3335.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3336.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3336.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3336.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3336.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3336.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3337.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3337.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3337.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3337.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3337.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3338.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3338.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3338.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3338.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3338.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3339.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3339.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3339.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3339.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3339.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3340.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3340.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3340.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3340.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3340.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3341.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3341.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3341.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3341.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3341.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3342.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3342.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3342.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3342.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3342.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3343.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3343.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3343.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3343.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3343.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3344.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3344.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3344.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3344.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3344.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3345.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3345.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3345.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3345.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3345.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3346.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3346.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3346.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3346.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3346.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3347.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3347.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3347.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3347.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3347.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3348.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3348.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3348.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3348.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3348.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3349.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3349.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3349.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3349.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3349.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3350.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3350.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3350.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3350.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3350.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3351.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3351.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3351.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3351.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3351.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3352.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3352.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3352.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3352.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3352.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3353.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3353.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3353.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3353.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3353.xml"
+      },
+      {
+        "text": "xlsx",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3354.xlsx"
+      },
+      {
+        "text": "pdf",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3354.pdf"
+      },
+      {
+        "text": "csv",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3354.csv"
+      },
+      {
+        "text": "json (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3354.json"
+      },
+      {
+        "text": "xml (api)",
+        "href": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3354.xml"
+      }
+    ],
+    "files": [
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_544.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_544.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_548.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_548.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_570.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_570.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_572.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_572.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_575.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_575.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1209.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1209.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_578.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_578.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_580.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_580.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_582.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_582.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1211.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1211.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_583.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_583.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_584.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_584.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1582.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1582.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1583.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1583.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1584.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1584.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1585.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1585.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1586.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1586.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1587.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1587.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1588.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1588.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1589.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1589.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1775.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1775.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1778.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1778.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1784.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1784.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1857.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1857.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1861.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1861.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1869.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1869.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1870.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1870.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1871.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1871.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1773.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1773.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1777.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1777.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1780.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1780.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1783.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1783.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1786.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1786.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1792.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1792.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1794.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1794.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1797.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1797.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1801.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1801.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1803.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1803.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1809.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1809.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1815.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1815.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1820.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1820.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1825.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1825.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1829.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1829.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1834.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1834.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1837.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1837.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1840.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1840.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_587.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_587.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_591.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_591.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_593.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_593.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_595.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_595.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_597.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_597.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_601.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_601.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_609.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_609.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_613.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_613.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_615.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_615.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_620.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_620.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_621.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_621.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_625.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_625.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_627.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_627.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_629.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_629.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_631.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_631.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_633.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_633.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_636.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_636.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_637.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_637.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_640.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_640.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_641.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_641.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_642.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_642.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_651.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_651.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_652.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_652.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_653.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_653.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_654.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_654.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_655.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_655.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_656.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_656.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3104.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3104.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3105.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3105.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3106.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3106.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3107.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3107.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3108.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3108.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3109.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3109.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3110.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3110.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3111.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3111.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3112.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3112.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3113.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3113.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3114.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3114.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3115.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3115.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3116.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3116.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3117.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3117.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3118.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3118.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3119.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3119.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3120.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3120.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3121.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3121.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3122.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3122.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3123.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3123.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3124.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3124.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3125.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3125.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3126.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3126.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3127.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3127.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3128.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3128.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3129.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3129.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_658.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_658.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_660.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_660.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_661.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_661.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1299.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_1299.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2757.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2757.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2758.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2758.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2759.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_2759.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3837.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3837.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3838.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3838.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3839.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3839.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3840.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3840.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3841.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3841.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3842.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3842.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3843.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3843.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3844.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3844.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3845.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3845.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3846.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3846.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3847.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3847.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3848.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3848.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3312.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3312.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3313.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3313.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3314.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3314.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3315.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3315.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3316.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3316.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3317.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3317.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3318.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3318.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3319.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3319.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3320.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3320.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3321.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3321.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3322.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3322.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3323.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3323.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3324.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3324.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3325.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3325.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3326.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3326.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3327.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3327.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3328.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3328.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3329.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3329.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3330.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3330.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3331.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3331.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3332.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3332.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3333.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3333.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3334.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3334.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3335.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3335.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3336.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3336.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3337.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3337.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3338.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3338.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3339.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3339.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3340.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3340.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3341.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3341.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3342.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3342.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3343.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3343.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3344.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3344.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3345.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3345.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3346.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3346.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3347.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3347.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3348.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3348.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3349.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3349.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3350.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3350.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3351.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3351.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3352.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3352.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3353.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3353.pdf",
+        "type": "pdf"
+      },
+      {
+        "name": "xlsx",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3354.xlsx",
+        "type": "xlsx"
+      },
+      {
+        "name": "pdf",
+        "url": "https://api.siat.stat.uz/media/uploads/sdmx/sdmx_data_3354.pdf",
+        "type": "pdf"
+      }
+    ],
+    "tables": []
+  }
+}

@@ -1,0 +1,165 @@
+[
+  {
+    "metadata": [
+      {
+        "name_uz": "Birinchi chop etilgan sana",
+        "name_ru": "Дата первой публикации",
+        "name_en": "Date of first publication",
+        "value_uz": "2022-06-29",
+        "value_ru": "2022-06-29",
+        "value_en": "2022-06-29"
+      },
+      {
+        "name_uz": "So'nggi o'zgartirilgan sana",
+        "name_ru": "Дата последнего изменения",
+        "name_en": "Last modified date",
+        "value_uz": "2024-08-15",
+        "value_ru": "2024-08-15",
+        "value_en": "2024-08-15"
+      },
+      {
+        "name_uz": "Ma'lumotlar to'plami identifikatsiya raqami (kodi)",
+        "name_ru": "Идентификационный номер индикатора (код)",
+        "name_en": "Indicator identification number (code)",
+        "value_uz": "1.01.01.0012",
+        "value_ru": "1.01.01.0012",
+        "value_en": "1.01.01.0012"
+      },
+      {
+        "name_uz": "Ma'lumotlar to‘plami nomi",
+        "name_ru": "Имя индикатора",
+        "name_en": "Indicator name",
+        "value_uz": "Mahsulotlarga sof soliqlarning o‘sish sur’ati (yillik)",
+        "value_ru": "Темпы роста чистых налогов на продукты (годовые)",
+        "value_en": "Growth rates of net taxes on products (annual)"
+      },
+      {
+        "name_uz": "Davriyligi",
+        "name_ru": "Периодичность",
+        "name_en": "Periodicity",
+        "value_uz": "yillik",
+        "value_ru": "ежегодный",
+        "value_en": "annual"
+      },
+      {
+        "name_uz": "O‘lchov birligi",
+        "name_ru": "Единица измерения",
+        "name_en": "Unit of measurement",
+        "value_uz": "o'tgan yilning mos davriga nisbatan % da",
+        "value_ru": "в % к соответствующему периоду  предыдущего года",
+        "value_en": "in% to the corresponding period of the  previous year"
+      },
+      {
+        "name_uz": "Klassifikatorlar",
+        "name_ru": "Классификаторы",
+        "name_en": "Classifiers",
+        "value_uz": "O'zbekiston Respublikasi byudjet tasnifi (daromadlar tasnifi)",
+        "value_ru": "Бюджетная классификация Республики Узбекистан (доходная классификация)",
+        "value_en": "Budget classification of the Republic of Uzbekistan (income classification)"
+      },
+      {
+        "name_uz": "Hisob kitobni amalga oshirgan tashkilot nomi",
+        "name_ru": "Название организации, осуществивший расчёт",
+        "name_en": "Name of the organization that carried out the calculation",
+        "value_uz": "O‘zbekiston Respublikasi Prezidenti huzuridagi Statistika agentligi",
+        "value_ru": "Агентство статистики при Президенте Республики Узбекистан",
+        "value_en": "Statistics Agency under the President of the Republic of Uzbekistan"
+      },
+      {
+        "name_uz": "Birlamchi ma'lumot manbasi",
+        "name_ru": "Первичный источник информации",
+        "name_en": "Primary source of information",
+        "value_uz": "Hisobot va statistik kuzatuv ma'lumotlari, ma'muriy ma'lumotlar",
+        "value_ru": "Данные отчетности и статистического обследования, административные данные",
+        "value_en": "Reporting and statistical survey data, administrative data"
+      },
+      {
+        "name_uz": "Hisoblash metodikasi",
+        "name_ru": "Методы расчета",
+        "name_en": "Calculation methodology",
+        "value_uz": "https://lib.stat.uz/uz/features/milliy-hisoblar/621-yalpi-ichki-mahsulotni-ishlab-chiqarish-usulida-hisoblash-bo-yicha-uslubiy-nizom-2",
+        "value_ru": "https://lib.stat.uz/ru/features-3/natsionalnye-scheta/622-yalpi-ichki-mahsulotni-ishlab-chiqarish-usulida-hisoblash-bo-yicha-uslubiy-nizom-3",
+        "value_en": "https://lib.stat.uz/ru/features-3/natsionalnye-scheta/622-yalpi-ichki-mahsulotni-ishlab-chiqarish-usulida-hisoblash-bo-yicha-uslubiy-nizom-3"
+      },
+      {
+        "name_uz": "Mas'ul boshqarma nomi",
+        "name_ru": "Ответственное управление",
+        "name_en": "Name of department",
+        "value_uz": "Makroiqtisodiy indikatorlar va milliy hisoblar boshqarmasi",
+        "value_ru": "Управление макроэкономических индикаторов и национальных счетов",
+        "value_en": "Department on Macroeconomic Indicators and National Accounts"
+      },
+      {
+        "name_uz": "Mas'ul hodim FIO",
+        "name_ru": "Oтветственный сотрудник ФИО",
+        "name_en": "Responsible officer name",
+        "value_uz": "Mexmonov Jahongir Osimxonovich",
+        "value_ru": "Мехмонов Жахонгир Осимхонович",
+        "value_en": "Mexmonov Jahongir Osimxonovich"
+      },
+      {
+        "name_uz": "Telefon raqami:",
+        "name_ru": "Номер телефона:",
+        "name_en": "Phone number:",
+        "value_uz": "+99871 202 80 32",
+        "value_ru": "+99871 202 80 32",
+        "value_en": "+99871 202 80 32"
+      },
+      {
+        "name_uz": "Elektron pochta",
+        "name_ru": "Электронная почта",
+        "name_en": "Email",
+        "value_uz": "j.mehmonov@stat.uz",
+        "value_ru": "j.mehmonov@stat.uz",
+        "value_en": "j.mehmonov@stat.uz"
+      },
+      {
+        "name_uz": "Izoh",
+        "name_ru": "Примечание",
+        "name_en": "Note",
+        "value_uz": "2023-yil uchun dastlabki ma'lumotlar",
+        "value_ru": "за 2023 год данные предварительные",
+        "value_en": "for 2023 preliminary data"
+      },
+      {
+        "name_uz": "Izoh",
+        "name_ru": "Примечание",
+        "name_en": "Note",
+        "value_uz": "2018- yildan boshlab ma'lumotlar MHT-2008 uslubiyatiga muvofiq, kuzatilmaydigan iqtisodiyotni hisobga olgan holda qayta ko'rib chiqilgan",
+        "value_ru": "С 2018 года данные пересмотрены с учетом ненаблюдаемой экономики в соответствии с методологией СНС- 2008",
+        "value_en": "Since 2018, the data have been revised taking into account the non-observed economy in accordance with the 2008 SNA methodology"
+      },
+      {
+        "name_uz": "Hisoblash metodikasi (qisqacha)",
+        "name_ru": "Методология расчета (кратко)",
+        "name_en": "Calculation methodology (briefly)",
+        "value_uz": "O‘sish sur’ati “Milliy hisoblar tizimi – 2008” xalqaro uslubiyoti bo‘yicha doimiy narxlardagi, ya’ni o‘tgan yilning mos davri narxlarida hisoblangan hisobot davri uchun qo‘shilgan qiymat hajmini joriy narxlardagi o‘tgan yilning mos davri qo‘shilgan qiymat hajmiga nisbati orqali hisoblanadi.  Yalpi qo‘shilgan qiymat ishlab chiqarilgan tovarlar va xizmatlar qiymati (ishlab chiqarish) va ishlab chiqarish jarayonida to‘laligicha iste’mol qilingan tovarlar va xizmatlar qiymati (oraliq iste’mol) o‘rtasidagi farq orqali aniqlanadi.",
+        "value_ru": "Согласно международной методологии «Системы национальных счетов – 2008», темп роста рассчитывается в постоянных ценах, т.е. рассчитывается соотношением объема добавленной стоимости за отчетный период, рассчитанного в ценах соответствующего периода предыдущего года к объему добавленной стоимости в соответствующем периоде предыдущего года в текущих ценах.  Валовая добавленная стоимость определяется разницей между стоимостью произведенных товаров и услуг (производство) и стоимостью товаров и услуг, полностью потребленных в процессе производства (промежуточное потребление).",
+        "value_en": "According to the international methodology of the “System of National Accounts - 2008”, the growth rate is calculated at constant prices, i.e. it is calculated as the ratio of the volume of added value for the reporting period, calculated in prices of the corresponding period of the previous year to the volume of added value in the corresponding period of the previous year in current prices.  Gross added value is determined by the difference between the value of goods and services produced (production) and the value of goods and services completely consumed in the production process (intermediate consumption)."
+      }
+    ],
+    "data": [
+      {
+        "2010": 104.1,
+        "2011": 106.6,
+        "2012": 104.3,
+        "2013": 106.7,
+        "2014": 106.1,
+        "2015": 106.5,
+        "2016": 105.7,
+        "2017": 105.7,
+        "2018": 105.9,
+        "2019": 104.7,
+        "2020": 101.6,
+        "2021": 104.6,
+        "2022": 97.7,
+        "2023": 107.2,
+        "2024": 106,
+        "Code": "1700",
+        "Klassifikator": "O‘zbekiston Respublikasi",
+        "Klassifikator_ru": "Республика Узбекистан",
+        "Klassifikator_en": "Republic of Uzbekistan"
+      }
+    ]
+  }
+]
