@@ -1,73 +1,76 @@
-const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
+const axios = require('axios');
 
-async function downloadDataset(url, id, title) {
+async function downloadDataset(id, title, files) {
     try {
-        const response = await axios.get(url);
-        const timestamp = new Date().toISOString().split('.')[0].replace(/:/g, '-');
-        const fileName = `dataset_${id}_${timestamp}.json`;
-        return { success: true, data: response.data, fileName };
+        const timestamp = new Date().toISOString().split('T')[0];
+        const jsonUrl = files.json;
+        const txtUrl = files.csv;
+
+        // JSON formatida yuklash
+        const jsonResponse = await axios.get(jsonUrl);
+        const jsonFilename = `dataset_${id}_${timestamp}.json`;
+        const jsonPath = path.join(__dirname, 'downloads', 'json', jsonFilename);
+        fs.writeFileSync(jsonPath, JSON.stringify(jsonResponse.data, null, 2));
+
+        // TXT (CSV) formatida yuklash
+        const txtResponse = await axios.get(txtUrl);
+        const txtFilename = `dataset_${id}_${timestamp}.txt`;
+        const txtPath = path.join(__dirname, 'downloads', 'json', txtFilename);
+        fs.writeFileSync(txtPath, txtResponse.data);
+
+        console.log(`Dataset ${id} muvaffaqiyatli yuklandi`);
+        return true;
     } catch (error) {
-        console.error(`Dataset ${id} yuklab olishda xatolik: ${error.message}`);
-        return { success: false, error: error.message };
+        console.error(`Dataset ${id} yuklanishida xatolik: ${error.message}`);
+        return false;
     }
 }
 
 async function downloadAllDatasets() {
     try {
-        // Statistika faylini o'qish
-        const statsPath = path.join(__dirname, 'data', 'statistics_2025-03-11T04-23-45-733Z.json');
-        const statsData = JSON.parse(fs.readFileSync(statsPath, 'utf8'));
-        
-        // JSON fayllarni saqlash uchun papka yaratish
-        const jsonDir = path.join(__dirname, 'downloads', 'json');
-        if (!fs.existsSync(jsonDir)) {
-            fs.mkdirSync(jsonDir, { recursive: true });
+        // Eng yangi statistika faylini topish
+        const dataDir = path.join(__dirname, 'data');
+        const files = fs.readdirSync(dataDir)
+            .filter(file => file.startsWith('statistics_') && file.endsWith('.json'))
+            .sort()
+            .reverse();
+
+        if (files.length === 0) {
+            throw new Error('Statistika fayli topilmadi');
         }
+
+        const statsFile = path.join(dataDir, files[0]);
+        const stats = JSON.parse(fs.readFileSync(statsFile, 'utf8'));
+        
+        console.log(`Statistika fayli: ${files[0]}`);
+        console.log(`Jami datasetlar: ${stats.content.datasets.length}`);
 
         let successCount = 0;
         let failCount = 0;
-        const errors = [];
 
-        // Har bir dataset uchun
-        for (const dataset of statsData.content.datasets) {
-            const { id, title, files } = dataset;
-            
-            if (files.json) {
-                console.log(`Dataset ${id} - "${title}" yuklanmoqda...`);
-                
-                const result = await downloadDataset(files.json, id, title);
-                
-                if (result.success) {
-                    const filePath = path.join(jsonDir, result.fileName);
-                    fs.writeFileSync(filePath, JSON.stringify(result.data, null, 2), 'utf8');
-                    console.log(`Dataset ${id} muvaffaqiyatli yuklandi`);
-                    successCount++;
-                } else {
-                    console.error(`Dataset ${id} yuklanmadi: ${result.error}`);
-                    errors.push({ id, title, error: result.error });
-                    failCount++;
-                }
-                
-                // Har bir so'rov orasida 1 soniya kutish
-                await new Promise(resolve => setTimeout(resolve, 1000));
+        // downloads/json papkasini yaratish
+        const downloadDir = path.join(__dirname, 'downloads', 'json');
+        if (!fs.existsSync(downloadDir)) {
+            fs.mkdirSync(downloadDir, { recursive: true });
+        }
+
+        // Har bir datasetni yuklash
+        for (const dataset of stats.content.datasets) {
+            const success = await downloadDataset(dataset.id, dataset.title, dataset.files);
+            if (success) {
+                successCount++;
+            } else {
+                failCount++;
             }
         }
-        
-        // Natijalarni chiqarish
+
         console.log('\nYuklash yakunlandi!');
-        console.log(`Jami: ${successCount + failCount} ta dataset`);
+        console.log(`Jami: ${stats.content.datasets.length} ta dataset`);
         console.log(`Muvaffaqiyatli: ${successCount} ta`);
         console.log(`Xatoliklar: ${failCount} ta`);
-        
-        if (errors.length > 0) {
-            console.log('\nXatolik yuz bergan datasetlar:');
-            errors.forEach(err => {
-                console.log(`- Dataset ${err.id} (${err.title}): ${err.error}`);
-            });
-        }
-        
+
     } catch (error) {
         console.error('Xatolik yuz berdi:', error.message);
     }

@@ -50,251 +50,297 @@ function generateQuestionsForDataset(data, datasetId, datasetTitle) {
 
     // Statistik ma'lumotlar bo'yicha savollar
     const years = Object.keys(statsData[0]).filter(key => /^\d{4}$/.test(key));
+    const months = Object.keys(statsData[0]).filter(key => key.includes('/'));
+    const periods = months.length > 0 ? months : years;
     const regions = statsData.map(item => item.Klassifikator).filter(Boolean);
 
-    // Yillik statistika
-    years.forEach(year => {
-        const yearData = statsData.map(item => ({
+    // Davr bo'yicha statistika
+    periods.forEach(period => {
+        const periodData = statsData.map(item => ({
             region: item.Klassifikator,
-            value: parseFloat(item[year])
+            value: parseFloat(item[period])
         })).filter(item => !isNaN(item.value));
 
-        if (yearData.length > 0) {
+        if (periodData.length > 0) {
             // Eng yuqori ko'rsatkich
-            const maxData = yearData.reduce((max, curr) => curr.value > max.value ? curr : max);
+            const maxData = periodData.reduce((max, curr) => curr.value > max.value ? curr : max);
             qaData.push({
                 dataset_id: datasetId,
-                question: `${year} yilda ${datasetTitle} bo'yicha eng yuqori ko'rsatkich qaysi hududda qayd etilgan?`,
-                answer: `${year} yilda eng yuqori ko'rsatkich ${maxData.value.toLocaleString('uz-UZ', {maximumFractionDigits: 1})} bilan ${maxData.region}da qayd etilgan.`
+                question: `${period} davrida ${datasetTitle} bo'yicha eng yuqori ko'rsatkich qaysi hududda qayd etilgan?`,
+                answer: `${period} davrida eng yuqori ko'rsatkich ${maxData.value.toLocaleString('uz-UZ', {maximumFractionDigits: 1})} bilan ${maxData.region}da qayd etilgan.`
             });
 
             // Eng past ko'rsatkich
-            const minData = yearData.reduce((min, curr) => curr.value < min.value ? curr : min);
+            const minData = periodData.reduce((min, curr) => curr.value < min.value ? curr : min);
             qaData.push({
                 dataset_id: datasetId,
-                question: `${year} yilda ${datasetTitle} bo'yicha eng past ko'rsatkich qaysi hududda qayd etilgan?`,
-                answer: `${year} yilda eng past ko'rsatkich ${minData.value.toLocaleString('uz-UZ', {maximumFractionDigits: 1})} bilan ${minData.region}da qayd etilgan.`
+                question: `${period} davrida ${datasetTitle} bo'yicha eng past ko'rsatkich qaysi hududda qayd etilgan?`,
+                answer: `${period} davrida eng past ko'rsatkich ${minData.value.toLocaleString('uz-UZ', {maximumFractionDigits: 1})} bilan ${minData.region}da qayd etilgan.`
             });
 
             // O'rtacha ko'rsatkich
-            const avgValue = (yearData.reduce((sum, curr) => sum + curr.value, 0) / yearData.length).toFixed(1);
+            const avgValue = (periodData.reduce((sum, curr) => sum + curr.value, 0) / periodData.length).toFixed(1);
             qaData.push({
                 dataset_id: datasetId,
-                question: `${year} yilda O'zbekiston bo'yicha ${datasetTitle}ning o'rtacha ko'rsatkichi qancha edi?`,
-                answer: `${year} yilda O'zbekiston bo'yicha o'rtacha ko'rsatkich ${parseFloat(avgValue).toLocaleString('uz-UZ', {maximumFractionDigits: 1})}ni tashkil etgan.`
+                question: `${period} davrida O'zbekiston bo'yicha ${datasetTitle}ning o'rtacha ko'rsatkichi qancha edi?`,
+                answer: `${period} davrida O'zbekiston bo'yicha o'rtacha ko'rsatkich ${parseFloat(avgValue).toLocaleString('uz-UZ', {maximumFractionDigits: 1})}ni tashkil etgan.`
             });
-
-            // O'sish sur'ati
-            if (years.indexOf(year) > 0) {
-                const prevYear = years[years.indexOf(year) - 1];
-                const prevYearData = statsData.map(item => ({
-                    region: item.Klassifikator,
-                    value: parseFloat(item[prevYear])
-                })).filter(item => !isNaN(item.value));
-
-                if (prevYearData.length > 0) {
-                    const growthData = regions.map(region => {
-                        const curr = yearData.find(d => d.region === region);
-                        const prev = prevYearData.find(d => d.region === region);
-                        if (curr && prev && prev.value !== 0) {
-                            return {
-                                region: region,
-                                growth: ((curr.value - prev.value) / prev.value * 100).toFixed(1)
-                            };
-                        }
-                        return null;
-                    }).filter(Boolean);
-
-                    if (growthData.length > 0) {
-                        // Eng yuqori o'sish
-                        const maxGrowth = growthData.reduce((max, curr) => parseFloat(curr.growth) > parseFloat(max.growth) ? curr : max);
-                        qaData.push({
-                            dataset_id: datasetId,
-                            question: `${year} yilda ${datasetTitle} bo'yicha eng yuqori o'sish sur'ati qaysi hududda qayd etilgan?`,
-                            answer: `${year} yilda eng yuqori o'sish sur'ati ${maxGrowth.growth}% bilan ${maxGrowth.region}da qayd etilgan.`
-                        });
-
-                        // Eng past o'sish
-                        const minGrowth = growthData.reduce((min, curr) => parseFloat(curr.growth) < parseFloat(min.growth) ? curr : min);
-                        qaData.push({
-                            dataset_id: datasetId,
-                            question: `${year} yilda ${datasetTitle} bo'yicha eng past o'sish sur'ati qaysi hududda qayd etilgan?`,
-                            answer: `${year} yilda eng past o'sish sur'ati ${minGrowth.growth}% bilan ${minGrowth.region}da qayd etilgan.`
-                        });
-                    }
-                }
-            }
         }
     });
 
-    // Hududiy dinamika
-    regions.forEach(region => {
-        const regionData = statsData.find(item => item.Klassifikator === region);
-        if (regionData) {
-            const values = years.map(year => parseFloat(regionData[year])).filter(val => !isNaN(val));
-            if (values.length > 0) {
-                const avgValue = (values.reduce((a, b) => a + b, 0) / values.length).toFixed(1);
-                const maxValue = Math.max(...values).toFixed(1);
-                const minValue = Math.min(...values).toFixed(1);
-                const trend = values[values.length - 1] < values[0] ? "pasayish" : "o'sish";
+    // Mintaqaviy tahlil uchun maxsus savollar
+    if (datasetId === "1287" || datasetId === "1288") {
+        const regions = statsData.filter(item => !item.Klassifikator.includes("O'zbekiston"));
+        const latestPeriod = periods[periods.length - 1];
+        
+        if (regions.length > 0) {
+            // Mintaqalar reytingi
+            const regionRanking = regions.map(region => ({
+                name: region.Klassifikator,
+                value: parseFloat(region[latestPeriod])
+            })).filter(item => !isNaN(item.value))
+              .sort((a, b) => b.value - a.value);
+
+            if (regionRanking.length > 0) {
+                const top3 = regionRanking.slice(0, 3);
+                const bottom3 = regionRanking.slice(-3);
 
                 qaData.push({
                     dataset_id: datasetId,
-                    question: `${region}da ${datasetTitle} ko'rsatkichlari qanday dinamikaga ega?`,
-                    answer: `${region}da ko'rsatkichlarning o'rtacha qiymati ${parseFloat(avgValue).toLocaleString('uz-UZ', {maximumFractionDigits: 1})}, eng yuqori ko'rsatkich ${parseFloat(maxValue).toLocaleString('uz-UZ', {maximumFractionDigits: 1})}, eng past ko'rsatkich ${parseFloat(minValue).toLocaleString('uz-UZ', {maximumFractionDigits: 1})}ni tashkil etgan. Umumiy tendensiya ${trend} tomon yo'nalgan.`
+                    question: `${latestPeriod} davrida mintaqalar bo'yicha narx indeksining eng yuqori va eng past ko'rsatkichlari qanday?`,
+                    answer: `${latestPeriod} davrida eng yuqori narx indeksi ${top3.map(r => `${r.name}da (${r.value.toFixed(1)}%)`).join(', ')} qayd etilgan. Eng past ko'rsatkichlar esa ${bottom3.reverse().map(r => `${r.name}da (${r.value.toFixed(1)}%)`).join(', ')} kuzatilgan.`
                 });
 
-                // Ko'p yillik o'rtacha o'sish sur'ati
-                const growthRates = [];
-                for (let i = 1; i < values.length; i++) {
-                    const growthRate = ((values[i] - values[i-1]) / values[i-1] * 100);
-                    if (!isNaN(growthRate)) {
-                        growthRates.push(growthRate);
-                    }
-                }
-                if (growthRates.length > 0) {
-                    const avgGrowth = (growthRates.reduce((a, b) => a + b, 0) / growthRates.length).toFixed(1);
+                // Respublika o'rtacha ko'rsatkichi bilan taqqoslash
+                const republicData = statsData.find(item => item.Klassifikator.includes("O'zbekiston"));
+                if (republicData) {
+                    const republicValue = parseFloat(republicData[latestPeriod]);
+                    const aboveAvg = regionRanking.filter(r => r.value > republicValue);
+                    
                     qaData.push({
                         dataset_id: datasetId,
-                        question: `${region}da ${datasetTitle}ning ko'p yillik o'rtacha o'sish sur'ati qanday?`,
-                        answer: `${region}da ${years[0]}-${years[years.length-1]} yillar oralig'ida o'rtacha yillik o'sish sur'ati ${avgGrowth}%ni tashkil etgan.`
+                        question: `${latestPeriod} davrida qancha mintaqa respublika o'rtacha ko'rsatkichidan yuqori narx indeksiga ega bo'lgan?`,
+                        answer: `${latestPeriod} davrida ${aboveAvg.length} ta mintaqa respublika o'rtacha ko'rsatkichidan (${republicValue.toFixed(1)}%) yuqori narx indeksiga ega bo'lgan. ${
+                            aboveAvg.length > 0 ? `Bular: ${aboveAvg.map(r => r.name).join(', ')}.` : ''}`
                     });
                 }
             }
         }
-    });
+    }
 
-    // O'zgarish dinamikasi
-    const firstYear = years[0];
-    const lastYear = years[years.length - 1];
-    
-    regions.forEach(region => {
-        const regionData = statsData.find(item => item.Klassifikator === region);
-        if (regionData) {
-            const firstValue = parseFloat(regionData[firstYear]);
-            const lastValue = parseFloat(regionData[lastYear]);
-            if (!isNaN(firstValue) && !isNaN(lastValue)) {
-                const change = ((lastValue - firstValue) / firstValue * 100).toFixed(1);
-                
-                qaData.push({
-                    dataset_id: datasetId,
-                    question: `${firstYear}-${lastYear} yillar oralig'ida ${region}da ${datasetTitle} qanday o'zgargan?`,
-                    answer: `${firstYear}-${lastYear} yillar oralig'ida ${region}da ko'rsatkich ${Math.abs(change)}% ga ${change < 0 ? 'kamaygan' : 'oshgan'}.`
-                });
+    // Xalqaro taqqoslash uchun maxsus savollar
+    if (datasetId === "1576" || datasetId === "1577") {
+        const countries = statsData.filter(item => !item.Klassifikator.includes("O'zbekiston"));
+        const latestPeriod = periods[periods.length - 1];
+        
+        if (countries.length > 0) {
+            // Mamlakatlar reytingi
+            const countryRanking = countries.map(country => ({
+                name: country.Klassifikator,
+                value: parseFloat(country[latestPeriod])
+            })).filter(item => !isNaN(item.value))
+              .sort((a, b) => b.value - a.value);
+
+            if (countryRanking.length > 0) {
+                const uzbekData = statsData.find(item => item.Klassifikator.includes("O'zbekiston"));
+                if (uzbekData) {
+                    const uzbekValue = parseFloat(uzbekData[latestPeriod]);
+                    const uzbekRank = countryRanking.findIndex(c => c.value <= uzbekValue) + 1;
+                    
+                    qaData.push({
+                        dataset_id: datasetId,
+                        question: `${latestPeriod} davrida O'zbekistonning narx indeksi MDH davlatlari orasida qanday o'rinda turgan?`,
+                        answer: `${latestPeriod} davrida O'zbekiston ${uzbekValue.toFixed(1)}% ko'rsatkich bilan MDH davlatlari orasida ${uzbekRank}-o'rinni egallagan. ${
+                            uzbekRank <= 3 ? "Bu yuqori inflyatsion bosim mavjudligini ko'rsatadi." :
+                            uzbekRank <= countryRanking.length/2 ? "Bu o'rtacha darajadagi narx o'sishini ko'rsatadi." :
+                            "Bu nisbatan past narx o'sishi sur'atini ko'rsatadi."}`
+                    });
+
+                    // Qo'shni davlatlar bilan taqqoslash
+                    const neighborCountries = ["Qozog'iston", "Qirg'iziston", "Tojikiston"];
+                    const neighbors = countryRanking.filter(c => 
+                        neighborCountries.some(n => c.name.includes(n)));
+                    
+                    if (neighbors.length > 0) {
+                        qaData.push({
+                            dataset_id: datasetId,
+                            question: `${latestPeriod} davrida O'zbekistonning narx indeksi qo'shni davlatlarga nisbatan qanday?`,
+                            answer: `${latestPeriod} davrida O'zbekistonda (${uzbekValue.toFixed(1)}%) ${
+                                neighbors.every(n => n.value < uzbekValue) ? "barcha qo'shni davlatlarga nisbatan yuqoriroq" :
+                                neighbors.every(n => n.value > uzbekValue) ? "barcha qo'shni davlatlarga nisbatan pastroq" :
+                                "qo'shni davlatlarga nisbatan o'rtacha"} narx o'sishi kuzatilgan. ${
+                                neighbors.map(n => `${n.name}da ${n.value.toFixed(1)}%`).join(', ')}.`
+                        });
+                    }
+                }
             }
-        }
-    });
-
-    // Solishtirma tahlil
-    if (regions.length > 1) {
-        const latestYear = years[years.length - 1];
-        const latestData = statsData.map(item => ({
-            region: item.Klassifikator,
-            value: parseFloat(item[latestYear])
-        })).filter(item => !isNaN(item.value));
-
-        if (latestData.length > 1) {
-            const sortedRegions = latestData.sort((a, b) => b.value - a.value);
-            const topRegions = sortedRegions.slice(0, 3);
-            const bottomRegions = sortedRegions.slice(-3);
-
-            qaData.push({
-                dataset_id: datasetId,
-                question: `${latestYear} yil holatiga ko'ra ${datasetTitle} bo'yicha yetakchi hududlar qaysilar?`,
-                answer: `${latestYear} yilda eng yuqori ko'rsatkichlar:\n1. ${topRegions[0].region} - ${topRegions[0].value.toLocaleString('uz-UZ', {maximumFractionDigits: 1})}\n2. ${topRegions[1].region} - ${topRegions[1].value.toLocaleString('uz-UZ', {maximumFractionDigits: 1})}\n3. ${topRegions[2].region} - ${topRegions[2].value.toLocaleString('uz-UZ', {maximumFractionDigits: 1})}`
-            });
-
-            qaData.push({
-                dataset_id: datasetId,
-                question: `${latestYear} yil holatiga ko'ra ${datasetTitle} bo'yicha eng past ko'rsatkichli hududlar qaysilar?`,
-                answer: `${latestYear} yilda eng past ko'rsatkichlar:\n1. ${bottomRegions[2].region} - ${bottomRegions[2].value.toLocaleString('uz-UZ', {maximumFractionDigits: 1})}\n2. ${bottomRegions[1].region} - ${bottomRegions[1].value.toLocaleString('uz-UZ', {maximumFractionDigits: 1})}\n3. ${bottomRegions[0].region} - ${bottomRegions[0].value.toLocaleString('uz-UZ', {maximumFractionDigits: 1})}`
-            });
         }
     }
 
-    // Maxsus savollar
-    if (datasetId === "3840" || datasetId === "3846") {
-        // Norasmiy iqtisodiyot uchun maxsus savollar
-        const yaimData = statsData.find(item => item.Klassifikator === "JAMI");
-        const sanoatData = statsData.find(item => item.Klassifikator === "Sanoat");
-        const xizmatlarData = statsData.find(item => item.Klassifikator === "Xizmatlar");
-        
-        if (yaimData && sanoatData && xizmatlarData) {
-            const yaimValues = years.map(year => parseFloat(yaimData[year])).filter(val => !isNaN(val));
-            const sanoatValues = years.map(year => parseFloat(sanoatData[year])).filter(val => !isNaN(val));
-            const xizmatlarValues = years.map(year => parseFloat(xizmatlarData[year])).filter(val => !isNaN(val));
+    // Narxlar va indekslar uchun maxsus savollar
+    if (datasetId === "1285" || datasetId === "1286") {
+        // Iste'mol narxlari indeksi uchun maxsus savollar
+        const totalData = statsData.find(item => item.Klassifikator === "Jami");
+        const oziqOvqat = statsData.find(item => item.Klassifikator === "Oziq-ovqat mahsulotlari");
+        const nooziqOvqat = statsData.find(item => item.Klassifikator === "Nooziq-ovqat mahsulotlari");
+        const xizmatlar = statsData.find(item => item.Klassifikator === "Xizmatlar");
 
-            // Korrelyatsion tahlil
-            if (yaimValues.length > 0 && sanoatValues.length > 0) {
-                const corrYaimSanoat = calculateCorrelation(yaimValues, sanoatValues);
-                const trend = corrYaimSanoat > 0 ? "to'g'ri" : "teskari";
-                const strength = Math.abs(corrYaimSanoat) > 0.7 ? "kuchli" : Math.abs(corrYaimSanoat) > 0.3 ? "o'rtacha" : "kuchsiz";
-                
-                qaData.push({
-                    dataset_id: datasetId,
-                    question: `Norasmiy iqtisodiyotning YAIMdagi ulushi va sanoatdagi ulushi o'rtasida qanday bog'liqlik mavjud?`,
-                    answer: `YAIMdagi va sanoatdagi norasmiy iqtisodiyot ulushi o'rtasida ${strength} ${trend} bog'liqlik mavjud (korrelyatsiya koeffitsienti: ${corrYaimSanoat.toFixed(2)}).`
-                });
-            }
-
-            if (yaimValues.length > 0 && xizmatlarValues.length > 0) {
-                const corrYaimXizmatlar = calculateCorrelation(yaimValues, xizmatlarValues);
-                const trend = corrYaimXizmatlar > 0 ? "to'g'ri" : "teskari";
-                const strength = Math.abs(corrYaimXizmatlar) > 0.7 ? "kuchli" : Math.abs(corrYaimXizmatlar) > 0.3 ? "o'rtacha" : "kuchsiz";
-                
-                qaData.push({
-                    dataset_id: datasetId,
-                    question: `Norasmiy iqtisodiyotning YAIMdagi ulushi va xizmatlardagi ulushi o'rtasida qanday bog'liqlik mavjud?`,
-                    answer: `YAIMdagi va xizmatlardagi norasmiy iqtisodiyot ulushi o'rtasida ${strength} ${trend} bog'liqlik mavjud (korrelyatsiya koeffitsienti: ${corrYaimXizmatlar.toFixed(2)}).`
-                });
-            }
-
-            // Yillar bo'yicha o'zgarish tendensiyasi
-            const firstHalfAvg = yaimValues.slice(0, Math.floor(yaimValues.length/2))
-                .reduce((a, b) => a + b, 0) / Math.floor(yaimValues.length/2);
-            const secondHalfAvg = yaimValues.slice(Math.floor(yaimValues.length/2))
-                .reduce((a, b) => a + b, 0) / (yaimValues.length - Math.floor(yaimValues.length/2));
+        if (totalData && oziqOvqat && nooziqOvqat && xizmatlar) {
+            const latestPeriod = periods[periods.length - 1];
             
-            qaData.push({
-                dataset_id: datasetId,
-                question: `${years[0]}-${years[years.length-1]} yillar oralig'ida norasmiy iqtisodiyotning YAIMdagi ulushida qanday tendensiya kuzatilgan?`,
-                answer: `Davr boshidagi o'rtacha ko'rsatkich ${firstHalfAvg.toFixed(1)}%, oxiridagi o'rtacha ko'rsatkich ${secondHalfAvg.toFixed(1)}%. ${secondHalfAvg < firstHalfAvg ? "Norasmiy iqtisodiyotning YAIMdagi ulushi pasayish tendensiyasiga ega." : "Norasmiy iqtisodiyotning YAIMdagi ulushi o'sish tendensiyasiga ega."}`
-            });
+            // Tarkibiy qismlar tahlili
+            const components = [
+                { name: "Oziq-ovqat mahsulotlari", value: parseFloat(oziqOvqat[latestPeriod]) },
+                { name: "Nooziq-ovqat mahsulotlari", value: parseFloat(nooziqOvqat[latestPeriod]) },
+                { name: "Xizmatlar", value: parseFloat(xizmatlar[latestPeriod]) }
+            ].filter(item => !isNaN(item.value))
+             .sort((a, b) => b.value - a.value);
+
+            if (components.length > 0) {
+                qaData.push({
+                    dataset_id: datasetId,
+                    question: `${latestPeriod} davrida iste'mol narxlari indeksining asosiy tarkibiy qismlari orasida eng yuqori o'sish qaysi yo'nalishda bo'lgan?`,
+                    answer: `${latestPeriod} davrida eng yuqori o'sish ${components[0].name.toLowerCase()}da (${components[0].value.toFixed(1)}%) qayd etilgan. Keyingi o'rinlarda ${components[1].name.toLowerCase()} (${components[1].value.toFixed(1)}%) va ${components[2].name.toLowerCase()} (${components[2].value.toFixed(1)}%) turadi.`
+                });
+            }
+
+            // Mavsumiy o'zgarishlar tahlili
+            if (periods.length >= 12) {
+                const monthlyData = periods.slice(-12).map(period => ({
+                    period,
+                    value: parseFloat(totalData[period])
+                })).filter(item => !isNaN(item.value));
+
+                if (monthlyData.length === 12) {
+                    const maxMonth = monthlyData.reduce((max, curr) => curr.value > max.value ? curr : max);
+                    const minMonth = monthlyData.reduce((min, curr) => curr.value < min.value ? curr : min);
+
+                    qaData.push({
+                        dataset_id: datasetId,
+                        question: `So'nggi 12 oyda iste'mol narxlari indeksining mavsumiy o'zgarishlari qanday bo'lgan?`,
+                        answer: `So'nggi 12 oyda eng yuqori o'sish ${maxMonth.period} davrida (${maxMonth.value.toFixed(1)}%), eng past o'sish esa ${minMonth.period} davrida (${minMonth.value.toFixed(1)}%) kuzatilgan.`
+                    });
+                }
+            }
         }
-    } else if (datasetId === "1582") {
-        // YaIM uchun maxsus savollar
-        const yaimTotal = statsData.find(item => item.Klassifikator === "Yalpi ichki mahsulot");
-        if (yaimTotal) {
-            const values = years.map(year => parseFloat(yaimTotal[year])).filter(val => !isNaN(val));
-            if (values.length > 1) {
-                // O'rtacha o'sish sur'ati
+    } else if (datasetId === "1301" || datasetId === "1302") {
+        // Sanoat mahsulotlari narx indeksi uchun maxsus savollar
+        const totalData = statsData.find(item => item.Klassifikator === "Jami sanoat");
+        const qaytaIshlash = statsData.find(item => item.Klassifikator.includes("Qayta ishlash"));
+        const energetika = statsData.find(item => item.Klassifikator.includes("Elektr"));
+        
+        if (totalData && qaytaIshlash && energetika) {
+            const latestPeriod = periods[periods.length - 1];
+            
+            // Tarmoqlararo taqqoslash
+            const sectors = [
+                { name: "Qayta ishlash sanoati", value: parseFloat(qaytaIshlash[latestPeriod]) },
+                { name: "Energetika", value: parseFloat(energetika[latestPeriod]) }
+            ].filter(item => !isNaN(item.value));
+
+            if (sectors.length > 0) {
+                qaData.push({
+                    dataset_id: datasetId,
+                    question: `${latestPeriod} davrida sanoatning turli tarmoqlarida narx indeksi qanday farqlangan?`,
+                    answer: `${latestPeriod} davrida ${sectors[0].value > sectors[1].value ? 
+                        `qayta ishlash sanoatida (${sectors[0].value.toFixed(1)}%) energetika tarmog'iga (${sectors[1].value.toFixed(1)}%) nisbatan` : 
+                        `energetika tarmog'ida (${sectors[1].value.toFixed(1)}%) qayta ishlash sanoatiga (${sectors[0].value.toFixed(1)}%) nisbatan`} yuqoriroq narx o'sishi kuzatilgan.`
+                });
+            }
+
+            // Uzoq muddatli tendensiya
+            if (periods.length > 1) {
+                const values = periods.map(period => parseFloat(totalData[period])).filter(val => !isNaN(val));
                 const avgGrowth = values.slice(1).reduce((sum, curr, idx) => 
                     sum + ((curr - values[idx]) / values[idx] * 100), 0) / (values.length - 1);
-                
+
                 qaData.push({
                     dataset_id: datasetId,
-                    question: `${years[0]}-${years[years.length-1]} yillar oralig'ida YaIMning o'rtacha yillik o'sish sur'ati qanday bo'lgan?`,
-                    answer: `${years[0]}-${years[years.length-1]} yillar oralig'ida YaIMning o'rtacha yillik o'sish sur'ati ${avgGrowth.toFixed(1)}% ni tashkil etgan.`
+                    question: `Sanoat mahsulotlari narx indeksining uzoq muddatli tendensiyasi qanday?`,
+                    answer: `${periods[0]}-${periods[periods.length-1]} davrida sanoat mahsulotlari narxining o'rtacha oylik o'sishi ${avgGrowth.toFixed(1)}% ni tashkil etgan. ${
+                        avgGrowth > 1 ? "Bu sezilarli inflyatsion bosim mavjudligini ko'rsatadi." : 
+                        avgGrowth > 0 ? "Bu mo''tadil narx o'sishi mavjudligini ko'rsatadi." : 
+                        "Bu narxlar barqaror yoki pasayish tendensiyasiga ega ekanligini ko'rsatadi."}`
                 });
             }
         }
-    } else if (datasetId === "3104") {
-        // YaIM (yakuniy iste'mol) uchun maxsus savollar
-        const uyXojaliklari = statsData.find(item => item.Klassifikator === "Uy xo'jaliklarining yakuniy iste'mol xarajatlari");
-        const davlatBoshqaruvi = statsData.find(item => item.Klassifikator === "Davlat boshqaruvi organlarining yakuniy iste'mol xarajatlari");
+    }
+
+    // Iqtisodiy faoliyat turlari bo'yicha tahlil
+    if (datasetId === "1320" || datasetId === "1321") {
+        const sectors = statsData.filter(item => !item.Klassifikator.includes("Jami"));
+        const latestPeriod = periods[periods.length - 1];
         
-        if (uyXojaliklari && davlatBoshqaruvi) {
-            const latestYear = years[years.length - 1];
-            const uyXojaligiUlushi = parseFloat(uyXojaliklari[latestYear]);
-            const davlatUlushi = parseFloat(davlatBoshqaruvi[latestYear]);
-            
-            if (!isNaN(uyXojaligiUlushi) && !isNaN(davlatUlushi)) {
-                const total = uyXojaligiUlushi + davlatUlushi;
+        if (sectors.length > 0) {
+            // Eng yuqori o'sish ko'rsatgan sektorlar
+            const sectorGrowth = sectors.map(sector => ({
+                name: sector.Klassifikator,
+                value: parseFloat(sector[latestPeriod])
+            })).filter(item => !isNaN(item.value))
+              .sort((a, b) => b.value - a.value);
+
+            if (sectorGrowth.length > 0) {
+                const top3 = sectorGrowth.slice(0, 3);
+                const bottom3 = sectorGrowth.slice(-3);
+
                 qaData.push({
                     dataset_id: datasetId,
-                    question: `${latestYear} yilda yakuniy iste'molda uy xo'jaliklari va davlat boshqaruvi organlarining ulushi qanday?`,
-                    answer: `${latestYear} yilda yakuniy iste'molda uy xo'jaliklarining ulushi ${(uyXojaligiUlushi/total*100).toFixed(1)}%, davlat boshqaruvi organlarining ulushi ${(davlatUlushi/total*100).toFixed(1)}% ni tashkil etgan.`
+                    question: `${latestPeriod} davrida qaysi iqtisodiy faoliyat turlarida narxlarning eng yuqori va eng past o'sishi kuzatilgan?`,
+                    answer: `${latestPeriod} davrida eng yuqori narx o'sishi ${top3.map(s => `${s.name.toLowerCase()}da (${s.value.toFixed(1)}%)`).join(', ')} qayd etilgan. Eng past o'sish esa ${bottom3.reverse().map(s => `${s.name.toLowerCase()}da (${s.value.toFixed(1)}%)`).join(', ')} kuzatilgan.`
                 });
+
+                // Inflyatsion bosim tahlili
+                const highInflation = sectorGrowth.filter(s => s.value > 5);
+                if (highInflation.length > 0) {
+                    qaData.push({
+                        dataset_id: datasetId,
+                        question: `${latestPeriod} davrida qaysi iqtisodiy faoliyat turlarida sezilarli inflyatsion bosim kuzatilgan?`,
+                        answer: `${latestPeriod} davrida ${highInflation.length} ta sektorda sezilarli inflyatsion bosim (5% dan yuqori o'sish) kuzatilgan: ${
+                            highInflation.map(s => `${s.name.toLowerCase()}da ${s.value.toFixed(1)}%`).join(', ')}.`
+                    });
+                }
+            }
+        }
+    }
+
+    // Transport turlari bo'yicha tahlil
+    if (datasetId === "1327" || datasetId === "1329") {
+        const transportTypes = statsData.filter(item => !item.Klassifikator.includes("Jami"));
+        const latestPeriod = periods[periods.length - 1];
+        
+        if (transportTypes.length > 0) {
+            // Transport turlari bo'yicha narx o'zgarishlari
+            const transportGrowth = transportTypes.map(type => ({
+                name: type.Klassifikator,
+                value: parseFloat(type[latestPeriod])
+            })).filter(item => !isNaN(item.value))
+              .sort((a, b) => b.value - a.value);
+
+            if (transportGrowth.length > 0) {
+                qaData.push({
+                    dataset_id: datasetId,
+                    question: `${latestPeriod} davrida transport xizmatlari narxining o'zgarishi transport turlari bo'yicha qanday taqsimlangan?`,
+                    answer: `${latestPeriod} davrida transport xizmatlari narxining o'zgarishi: ${
+                        transportGrowth.map(t => `${t.name.toLowerCase()}da ${t.value.toFixed(1)}%`).join(', ')}.`
+                });
+
+                // Yo'lovchi va yuk tashish taqqoslamasi
+                const passengerTransport = transportGrowth.filter(t => t.name.toLowerCase().includes("yo'lovchi"));
+                const cargoTransport = transportGrowth.filter(t => t.name.toLowerCase().includes("yuk"));
+
+                if (passengerTransport.length > 0 && cargoTransport.length > 0) {
+                    const avgPassenger = passengerTransport.reduce((sum, t) => sum + t.value, 0) / passengerTransport.length;
+                    const avgCargo = cargoTransport.reduce((sum, t) => sum + t.value, 0) / cargoTransport.length;
+
+                    qaData.push({
+                        dataset_id: datasetId,
+                        question: `${latestPeriod} davrida yo'lovchi va yuk tashish xizmatlari narxlarining o'rtacha o'sishi qanday farqlangan?`,
+                        answer: `${latestPeriod} davrida yo'lovchi tashish xizmatlarida o'rtacha ${avgPassenger.toFixed(1)}%, yuk tashish xizmatlarida esa ${avgCargo.toFixed(1)}% narx o'sishi qayd etilgan. ${
+                            avgPassenger > avgCargo ? "Yo'lovchi tashish xizmatlarida narx o'sishi yuqoriroq bo'lgan." :
+                            avgPassenger < avgCargo ? "Yuk tashish xizmatlarida narx o'sishi yuqoriroq bo'lgan." :
+                            "Ikkala yo'nalishda ham narx o'sishi bir xil darajada bo'lgan."}`
+                    });
+                }
             }
         }
     }
@@ -304,58 +350,63 @@ function generateQuestionsForDataset(data, datasetId, datasetTitle) {
 
 async function convertToQA() {
     try {
-        // Statistika faylini o'qish
-        const statsPath = path.join(__dirname, 'data', 'statistics_2025-03-11T04-23-45-733Z.json');
-        const statsData = JSON.parse(fs.readFileSync(statsPath, 'utf8'));
-        
-        const downloadsDir = path.join(__dirname, 'downloads', 'json');
+        // Eng yangi statistika faylini topish
         const dataDir = path.join(__dirname, 'data');
+        const statsFiles = fs.readdirSync(dataDir)
+            .filter(file => file.startsWith('statistics_') && file.endsWith('.json'))
+            .sort()
+            .reverse();
+
+        if (statsFiles.length === 0) {
+            throw new Error('Statistika fayli topilmadi');
+        }
+
+        const statsFile = path.join(dataDir, statsFiles[0]);
+        const stats = JSON.parse(fs.readFileSync(statsFile, 'utf8'));
         
-        let allQAData = [];
-        let processedDatasets = 0;
-        let failedDatasets = 0;
-        
-        // Har bir dataset uchun QA generatsiya qilish
-        for (const dataset of statsData.content.datasets) {
-            const { id, title } = dataset;
-            
-            // Eng so'nggi versiyani topish
-            const datasetFiles = fs.readdirSync(downloadsDir)
-                .filter(file => file.startsWith(`dataset_${id}_`))
-                .sort()
-                .reverse();
-            
-            if (datasetFiles.length > 0) {
-                try {
-                    const filePath = path.join(downloadsDir, datasetFiles[0]);
-                    const rawData = fs.readFileSync(filePath, 'utf8');
-                    const data = JSON.parse(rawData);
+        const downloadDir = path.join(__dirname, 'downloads', 'json');
+        const qaData = [];
+        let successCount = 0;
+        let failCount = 0;
+
+        for (const dataset of stats.content.datasets) {
+            try {
+                const files = fs.readdirSync(downloadDir)
+                    .filter(file => file.startsWith(`dataset_${dataset.id}_`) && file.endsWith('.json'));
+                
+                if (files.length > 0) {
+                    const datasetFile = path.join(downloadDir, files[0]);
+                    const datasetData = JSON.parse(fs.readFileSync(datasetFile, 'utf8'));
                     
-                    const qaData = generateQuestionsForDataset(data, id, title);
-                    allQAData = allQAData.concat(qaData);
+                    const questions = generateQuestionsForDataset(datasetData, dataset.id, dataset.title);
+                    qaData.push(...questions);
                     
-                    console.log(`Dataset ${id} uchun ${qaData.length} ta savol-javob juftligi yaratildi`);
-                    processedDatasets++;
-                } catch (error) {
-                    console.error(`Dataset ${id} uchun xatolik: ${error.message}`);
-                    failedDatasets++;
+                    console.log(`Dataset ${dataset.id} uchun ${questions.length} ta savol-javob juftligi yaratildi`);
+                    successCount++;
                 }
+            } catch (error) {
+                console.error(`Dataset ${dataset.id} uchun QA yaratishda xatolik: ${error.message}`);
+                failCount++;
             }
         }
 
-        // QA ma'lumotlarini saqlash
-        if (!fs.existsSync(dataDir)) {
-            fs.mkdirSync(dataDir, { recursive: true });
-        }
-        
-        const outputPath = path.join(dataDir, 'qa_dataset.json');
-        fs.writeFileSync(outputPath, JSON.stringify(allQAData, null, 2), 'utf8');
+        // QA dataset ni saqlash
+        const qaDataset = {
+            created_at: new Date().toISOString(),
+            source_url: stats.url,
+            qa_pairs: qaData
+        };
+
+        fs.writeFileSync(
+            path.join(__dirname, 'data', 'qa_dataset.json'),
+            JSON.stringify(qaDataset, null, 2)
+        );
 
         console.log('\nQA dataset yaratish yakunlandi!');
-        console.log(`Jami: ${processedDatasets + failedDatasets} ta dataset`);
-        console.log(`Muvaffaqiyatli: ${processedDatasets} ta`);
-        console.log(`Xatoliklar: ${failedDatasets} ta`);
-        console.log(`Jami ${allQAData.length} ta savol-javob juftligi yaratildi`);
+        console.log(`Jami: ${stats.content.datasets.length} ta dataset`);
+        console.log(`Muvaffaqiyatli: ${successCount} ta`);
+        console.log(`Xatoliklar: ${failCount} ta`);
+        console.log(`Jami ${qaData.length} ta savol-javob juftligi yaratildi`);
 
     } catch (error) {
         console.error('Xatolik yuz berdi:', error.message);

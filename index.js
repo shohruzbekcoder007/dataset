@@ -52,7 +52,7 @@ async function scrapeData() {
     console.log('Ma\'lumotlarni yuklash boshlandi...');
     
     // Navigate to the page with increased timeout
-    await page.goto('https://stat.uz/uz/rasmiy-statistika/national-accounts-2', {
+    await page.goto('https://stat.uz/uz/rasmiy-statistika/prices-and-indexes-2', {
       waitUntil: 'networkidle0',
       timeout: 60000
     });
